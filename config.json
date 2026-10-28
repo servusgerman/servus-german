@@ -17,10 +17,10 @@
  "label_ai": true,
  "pinterest_board_id": null,
  "links": {
-  "shop": null,
-  "tiktok": null,
-  "instagram": null,
-  "youtube": null,
+  "shop": "https://payhip.com/ServusGerman",
+  "tiktok": "https://www.tiktok.com/@servus.german",
+  "instagram": "https://www.instagram.com/servus.german/",
+  "youtube": "https://www.youtube.com/@servus.german",
   "pinterest": null,
   "buffer": "https://publish.buffer.com"
  },
