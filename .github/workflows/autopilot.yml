@@ -1,0 +1,31 @@
+name: Autopilot
+on:
+  schedule:
+    - cron: "23 6,16 * * *"     # twice a day (UTC): keeps the next 7 days queued in Buffer
+  workflow_dispatch: {}
+  push:
+    paths: ["config.json", "schedule.json"]
+permissions:
+  contents: write
+concurrency:
+  group: autopilot
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Schedule posts in Buffer
+        run: python autopilot.py
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      - name: Save state for Mission Control
+        run: |
+          git config user.name "servus-autopilot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state config.json
+          git diff --cached --quiet || (git commit -m "autopilot: update state [skip ci]" && git push)
