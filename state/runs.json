@@ -1,0 +1,25 @@
+[
+ {
+  "started": "2026-10-28T09:21:56.000Z",
+  "created": 21,
+  "updated": 0,
+  "errors": [
+   "day02-carousel|tiktok: Invalid post: TikTok posts cannot have more than 10 assets."
+  ],
+  "warnings": [
+   "Start date set to 2026-10-29 (day 1). Change it in config.json if you like."
+  ],
+  "dry_run": false,
+  "pages_base": "https://servusgerman.github.io/servus-german/",
+  "org": "My organization",
+  "channels": {
+   "youtube": "Servus German",
+   "instagram": "servus.german",
+   "tiktok": "servus.german"
+  },
+  "content_until": "2026-12-27T17:00:00.000Z",
+  "api_calls": 24,
+  "finished": "2026-10-28T09:22:12.000Z",
+  "ok": false
+ }
+]
