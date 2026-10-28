@@ -142,7 +142,7 @@ def build_input(slot, channel_id, base, config):
                              "metadata": {"thumbnailOffset": int(post.get("thumb_ms", 700))}}}]
     else:
         imgs = post["media"]
-        if platform == "instagram" and len(imgs) > 10:          # Instagram allows 10 items per carousel
+        if platform in ("instagram", "tiktok") and len(imgs) > 10:  # both allow 10 items per carousel
             imgs = imgs[:9] + imgs[-1:]
         assets = [{"image": {"url": media_url(base, m), "metadata": {"altText": post.get("alt", post["title"])[:250]}}}
                   for m in imgs]
