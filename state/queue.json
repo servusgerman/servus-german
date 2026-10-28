@@ -48,7 +48,17 @@
   "due": "2026-10-30T11:30:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-10-28T09:24:40.000Z"
+  "created": "2026-10-28T09:24:40.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day02-video|tiktok": {
   "buffer_id": "6ae1beba0e101a27fcd5a0a9",
