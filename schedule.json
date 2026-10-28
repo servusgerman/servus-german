@@ -1,0 +1,1961 @@
+{
+ "version": 2,
+ "batch": "Days 1–60",
+ "posts": [
+  {
+   "key": "day01-video",
+   "day": 1,
+   "kind": "video",
+   "format": "vs",
+   "title": "5 words Austrians say differently",
+   "caption": "Learn German words that are different in Austria 🇩🇪🇦🇹 Same language, different words! Which one surprised you most? #learngerman #austriangerman #deutschlernen #austria #germanwords",
+   "yt_title": "5 Words Austrians Say Differently 🇦🇹 #learngerman #shorts",
+   "media": [
+    "media/videos/d01.mp4"
+   ],
+   "cover": "media/videos/d01.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day02-video",
+   "day": 2,
+   "kind": "video",
+   "format": "stop",
+   "title": "Stop saying „Ich bin heiß.“",
+   "caption": "The German mistake every beginner makes in summer 🥵 Ich bin heiß ≠ I'm hot (temperature). Say: Mir ist heiß! #learngerman #germanmistakes #deutschlernen #germanlanguage #languagelearning",
+   "yt_title": "Stop Saying „Ich bin heiß“ in German 😳 #shorts",
+   "media": [
+    "media/videos/d02.mp4"
+   ],
+   "cover": "media/videos/d02.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day02-carousel",
+   "day": 2,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "10 everyday words that are different in Austria",
+   "caption": "10 everyday words that are different in Austria 🇦🇹 Paradeiser, Erdapfel, Jänner, Semmel, Sackerl… Which ones did you know? #austriangerman #learngerman #austria #deutschlernen #vienna",
+   "media": [
+    "media/slides/c07/c07_01.jpg",
+    "media/slides/c07/c07_02.jpg",
+    "media/slides/c07/c07_03.jpg",
+    "media/slides/c07/c07_04.jpg",
+    "media/slides/c07/c07_05.jpg",
+    "media/slides/c07/c07_06.jpg",
+    "media/slides/c07/c07_07.jpg",
+    "media/slides/c07/c07_08.jpg",
+    "media/slides/c07/c07_09.jpg",
+    "media/slides/c07/c07_10.jpg",
+    "media/slides/c07/c07_11.jpg",
+    "media/slides/c07/c07_12.jpg"
+   ],
+   "cover": "media/slides/c07/c07_01.jpg",
+   "alt": "10 everyday words that are different in Austria — Paradeiser vs Tomate, Erdapfel vs Kartoffel, Jänner vs Januar, Semmel vs Brötchen — Austrian German vocabulary for learners and expats.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day02-pin",
+   "day": 2,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Austrian German vs German: 10 everyday words",
+   "caption": "Paradeiser vs Tomate, Erdapfel vs Kartoffel, Jänner vs Januar, Semmel vs Brötchen — Austrian German vocabulary for learners and expats.",
+   "media": [
+    "media/pins/c07.jpg"
+   ],
+   "cover": "media/pins/c07.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day03-video",
+   "day": 3,
+   "kind": "video",
+   "format": "word",
+   "title": "Schadenfreude",
+   "caption": "Schadenfreude = damage + joy 😈 The German word English had to borrow. Do you feel it too? #learngerman #germanwords #schadenfreude #deutschlernen #languagelearning",
+   "yt_title": "What Schadenfreude REALLY means 😈 #germanwords #shorts",
+   "media": [
+    "media/videos/d03.mp4"
+   ],
+   "cover": "media/videos/d03.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day04-video",
+   "day": 4,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? quiz",
+   "caption": "Der, die or das? Test your German articles 🧠 5 nouns, 3 seconds each — comment your score! #learngerman #germangrammar #derdiedas #germanquiz #deutschlernen",
+   "yt_title": "Der, Die or Das? German Article Quiz 🧠 #shorts",
+   "media": [
+    "media/videos/d04.mp4"
+   ],
+   "cover": "media/videos/d04.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day05-video",
+   "day": 5,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Ich verstehe nur Bahnhof.“",
+   "caption": "„Ich verstehe nur Bahnhof“ — literally “I only understand train station” 🚉 The most German way to say you're lost. #learngerman #germanidioms #deutschlernen #germanlanguage #funnygerman",
+   "yt_title": "„I only understand train station“ 🚉 German Idiom #shorts",
+   "media": [
+    "media/videos/d05.mp4"
+   ],
+   "cover": "media/videos/d05.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day05-carousel",
+   "day": 5,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "German idioms, literally translated",
+   "caption": "8 German idioms that make zero sense in English 🐷🌭🍅 Which one is your favourite? Save + share with a German learner! #learngerman #germanidioms #funnygerman #deutschlernen #germanlanguage",
+   "media": [
+    "media/slides/c04/c04_01.jpg",
+    "media/slides/c04/c04_02.jpg",
+    "media/slides/c04/c04_03.jpg",
+    "media/slides/c04/c04_04.jpg",
+    "media/slides/c04/c04_05.jpg",
+    "media/slides/c04/c04_06.jpg",
+    "media/slides/c04/c04_07.jpg",
+    "media/slides/c04/c04_08.jpg",
+    "media/slides/c04/c04_09.jpg",
+    "media/slides/c04/c04_10.jpg"
+   ],
+   "cover": "media/slides/c04/c04_01.jpg",
+   "alt": "German idioms, literally translated — Ich verstehe nur Bahnhof, Schwein haben, Daumen drücken, Jetzt geht's um die Wurst — German idioms with literal translations and real meanings.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day05-pin",
+   "day": 5,
+   "kind": "pin",
+   "format": "pin",
+   "title": "8 funny German idioms literally translated",
+   "caption": "Ich verstehe nur Bahnhof, Schwein haben, Daumen drücken, Jetzt geht's um die Wurst — German idioms with literal translations and real meanings.",
+   "media": [
+    "media/pins/c04.jpg"
+   ],
+   "cover": "media/pins/c04.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day06-video",
+   "day": 6,
+   "kind": "video",
+   "format": "clock",
+   "title": "„Halb vier“ is NOT half past four",
+   "caption": "Telling time in German: halb vier = 3:30, not 4:30! ⏰ And in Austria, Viertel vier = 3:15 🇦🇹 #learngerman #germangrammar #austriangerman #deutschlernen #telltime",
+   "yt_title": "German Time Trap: „halb vier“ ⏰ #learngerman #shorts",
+   "media": [
+    "media/videos/d06.mp4"
+   ],
+   "cover": "media/videos/d06.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day07-video",
+   "day": 7,
+   "kind": "video",
+   "format": "vs",
+   "title": "Austria put these food words into EU law",
+   "caption": "When Austria joined the EU in 1995, 23 Austrian food words were written into the accession treaty (Protocol No. 10) 🇦🇹🇪🇺 Obers, Topfen, Marille, Karfiol, Kren… #learngerman #austriangerman #austria #deutschlernen #germanwords",
+   "yt_title": "Austria Wrote These Words Into EU Law 🇦🇹 #shorts",
+   "media": [
+    "media/videos/d07.mp4"
+   ],
+   "cover": "media/videos/d07.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day08-video",
+   "day": 8,
+   "kind": "video",
+   "format": "stop",
+   "title": "Stop saying „Ich bin langweilig.“",
+   "caption": "„Ich bin langweilig“ means I AM BORING 😴 Say „Mir ist langweilig“ instead! #learngerman #germanmistakes #deutschlernen #germanlanguage #languagelearning",
+   "yt_title": "Don't Say „Ich bin langweilig“ 😴 #learngerman #shorts",
+   "media": [
+    "media/videos/d08.mp4"
+   ],
+   "cover": "media/videos/d08.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day08-carousel",
+   "day": 8,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Der, die, das: 8 rules that actually work",
+   "caption": "German articles feel random — but these 8 rules cover thousands of nouns 🧠 Save this and stop guessing der, die, das! #learngerman #germangrammar #derdiedas #deutschlernen #germanlanguage",
+   "media": [
+    "media/slides/c02/c02_01.jpg",
+    "media/slides/c02/c02_02.jpg",
+    "media/slides/c02/c02_03.jpg",
+    "media/slides/c02/c02_04.jpg",
+    "media/slides/c02/c02_05.jpg",
+    "media/slides/c02/c02_06.jpg",
+    "media/slides/c02/c02_07.jpg",
+    "media/slides/c02/c02_08.jpg",
+    "media/slides/c02/c02_09.jpg",
+    "media/slides/c02/c02_10.jpg"
+   ],
+   "cover": "media/slides/c02/c02_01.jpg",
+   "alt": "Der, die, das: 8 rules that actually work — Cheat sheet for German noun genders: -ung, -heit, -keit → die; -chen, -um, -ment → das; days, months, -ismus → der. Includes the Austrian -erl ending.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day08-pin",
+   "day": 8,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Der, die, das: 8 German article rules that actually work",
+   "caption": "Cheat sheet for German noun genders: -ung, -heit, -keit → die; -chen, -um, -ment → das; days, months, -ismus → der. Includes the Austrian -erl ending.",
+   "media": [
+    "media/pins/c02.jpg"
+   ],
+   "cover": "media/pins/c02.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day09-video",
+   "day": 9,
+   "kind": "video",
+   "format": "word",
+   "title": "Feierabend",
+   "caption": "Feierabend = the moment work ends 🍻 Germans and Austrians say „Schönen Feierabend!“ when leaving work. We need this in English! #learngerman #germanwords #deutschlernen #feierabend #languagelearning",
+   "yt_title": "Feierabend: The Best German Word 🍻 #shorts",
+   "media": [
+    "media/videos/d09.mp4"
+   ],
+   "cover": "media/videos/d09.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day10-video",
+   "day": 10,
+   "kind": "video",
+   "format": "phrases",
+   "title": "Order coffee like a Viennese",
+   "caption": "How to order coffee in a Viennese café ☕🇦🇹 Melange, Verlängerter, kleiner Brauner, Einspänner — save this for your trip to Vienna! #vienna #learngerman #austria #wien #kaffeehaus",
+   "yt_title": "How to Order Coffee in Vienna ☕ #learngerman #shorts",
+   "media": [
+    "media/videos/d10.mp4"
+   ],
+   "cover": "media/videos/d10.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day11-video",
+   "day": 11,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Das ist nicht mein Bier.“",
+   "caption": "„Das ist nicht mein Bier“ = that's not my beer 🍺 …aka not my problem. Very German energy. #learngerman #germanidioms #deutschlernen #germanlanguage #funnygerman",
+   "yt_title": "„That's not my beer“ 🍺 German Idiom #shorts",
+   "media": [
+    "media/videos/d11.mp4"
+   ],
+   "cover": "media/videos/d11.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day11-carousel",
+   "day": 11,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "How to order coffee in Vienna",
+   "caption": "Vienna coffee house cheat sheet ☕🇦🇹 Melange, Verlängerter, Brauner, Einspänner, Franziskaner… Save this for your Vienna trip! #vienna #wien #kaffeehaus #learngerman #austria",
+   "media": [
+    "media/slides/c03/c03_01.jpg",
+    "media/slides/c03/c03_02.jpg",
+    "media/slides/c03/c03_03.jpg",
+    "media/slides/c03/c03_04.jpg",
+    "media/slides/c03/c03_05.jpg",
+    "media/slides/c03/c03_06.jpg",
+    "media/slides/c03/c03_07.jpg",
+    "media/slides/c03/c03_08.jpg",
+    "media/slides/c03/c03_09.jpg",
+    "media/slides/c03/c03_10.jpg"
+   ],
+   "cover": "media/slides/c03/c03_01.jpg",
+   "alt": "How to order coffee in Vienna — Melange, Verlängerter, kleiner Brauner, Einspänner, Franziskaner and Wiener Eiskaffee explained, plus how to pay and tip in a Viennese coffee house.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day11-pin",
+   "day": 11,
+   "kind": "pin",
+   "format": "pin",
+   "title": "How to order coffee in Vienna — Viennese coffee guide",
+   "caption": "Melange, Verlängerter, kleiner Brauner, Einspänner, Franziskaner and Wiener Eiskaffee explained, plus how to pay and tip in a Viennese coffee house.",
+   "media": [
+    "media/pins/c03.jpg"
+   ],
+   "cover": "media/pins/c03.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day12-video",
+   "day": 12,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? 5 nouns · learn the rules",
+   "caption": "Der, die or das? These 5 rules make German articles SO much easier 🧠 Comment your score! #learngerman #germangrammar #derdiedas #germanquiz #deutschlernen",
+   "yt_title": "Der Die Das Rules Quiz 🧠 #learngerman #shorts",
+   "media": [
+    "media/videos/d12.mp4"
+   ],
+   "cover": "media/videos/d12.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day13-video",
+   "day": 13,
+   "kind": "video",
+   "format": "vs",
+   "title": "Austrian home words that confuse Germans",
+   "caption": "Austrian vs German words at home 🏠 In Austria a Sessel is a chair — in Germany it's an armchair! And your pillow is a Polster 🛏️ #austriangerman #learngerman #deutschlernen #austria #germanwords",
+   "yt_title": "Austrian vs German: Home Words 🏠 #shorts",
+   "media": [
+    "media/videos/d13.mp4"
+   ],
+   "cover": "media/videos/d13.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day14-video",
+   "day": 14,
+   "kind": "video",
+   "format": "stop",
+   "title": "Careful with „Ich bin voll.“",
+   "caption": "„Ich bin voll“ can mean I'm DRUNK 🍻 After dinner, say „Ich bin satt“! #learngerman #germanmistakes #deutschlernen #germanlanguage #languagelearning",
+   "yt_title": "„Ich bin voll“ Can Mean You're Drunk 🍻 #shorts",
+   "media": [
+    "media/videos/d14.mp4"
+   ],
+   "cover": "media/videos/d14.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day14-carousel",
+   "day": 14,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "23 Austrian food words written into EU law",
+   "caption": "When Austria joined the EU in 1995, it negotiated Protocol No. 10: 23 Austrian food words got the same legal status as their German equivalents 🇦🇹🇪🇺 How many did you know? Save this for your next trip! #austriangerman #learngerman #austria #deutschlernen #germanwords",
+   "media": [
+    "media/slides/c01/c01_01.jpg",
+    "media/slides/c01/c01_02.jpg",
+    "media/slides/c01/c01_03.jpg",
+    "media/slides/c01/c01_04.jpg",
+    "media/slides/c01/c01_05.jpg",
+    "media/slides/c01/c01_06.jpg"
+   ],
+   "cover": "media/slides/c01/c01_01.jpg",
+   "alt": "23 Austrian food words written into EU law — Austrian vs German food vocabulary: Paradeiser, Erdäpfel, Topfen, Marillen, Karfiol, Kren and more — the 23 Austrian terms recognised in EU law since 1995.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day14-pin",
+   "day": 14,
+   "kind": "pin",
+   "format": "pin",
+   "title": "23 Austrian German food words (EU Protocol No. 10)",
+   "caption": "Austrian vs German food vocabulary: Paradeiser, Erdäpfel, Topfen, Marillen, Karfiol, Kren and more — the 23 Austrian terms recognised in EU law since 1995.",
+   "media": [
+    "media/pins/c01.jpg"
+   ],
+   "cover": "media/pins/c01.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day15-video",
+   "day": 15,
+   "kind": "video",
+   "format": "word",
+   "title": "Fernweh",
+   "caption": "Fernweh = an ache for faraway places ✈️ The opposite of Heimweh (homesickness). Who else has Fernweh right now? #learngerman #germanwords #fernweh #deutschlernen #wanderlust",
+   "yt_title": "Fernweh: Homesick for Places You've Never Been ✈️ #shorts",
+   "media": [
+    "media/videos/d15.mp4"
+   ],
+   "cover": "media/videos/d15.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day16-video",
+   "day": 16,
+   "kind": "video",
+   "format": "phrases",
+   "title": "How to say hi & bye in Austria",
+   "caption": "Greetings in Austria 🇦🇹👋 Grüß Gott, Servus, Baba, Pfiat di… Which one do you use? #austria #learngerman #austriangerman #vienna #deutschlernen",
+   "yt_title": "How Austrians Say Hello & Goodbye 👋 #shorts",
+   "media": [
+    "media/videos/d16.mp4"
+   ],
+   "cover": "media/videos/d16.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day17-video",
+   "day": 17,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Hast du Tomaten auf den Augen?“",
+   "caption": "„Tomaten auf den Augen haben“ = to have tomatoes on your eyes 🍅👀 aka missing something obvious. #learngerman #germanidioms #deutschlernen #funnygerman #germanlanguage",
+   "yt_title": "„Tomatoes on your eyes?“ 🍅 German Idiom #shorts",
+   "media": [
+    "media/videos/d17.mp4"
+   ],
+   "cover": "media/videos/d17.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day17-carousel",
+   "day": 17,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "8 false friends that trick English speakers",
+   "caption": "8 German false friends that trick every English speaker ⚠️ Gift = poison, Chef = boss, bekommen = to get… Save this! #learngerman #falsefriends #germangrammar #deutschlernen #germanlanguage",
+   "media": [
+    "media/slides/c05/c05_01.jpg",
+    "media/slides/c05/c05_02.jpg",
+    "media/slides/c05/c05_03.jpg",
+    "media/slides/c05/c05_04.jpg",
+    "media/slides/c05/c05_05.jpg",
+    "media/slides/c05/c05_06.jpg",
+    "media/slides/c05/c05_07.jpg",
+    "media/slides/c05/c05_08.jpg",
+    "media/slides/c05/c05_09.jpg",
+    "media/slides/c05/c05_10.jpg"
+   ],
+   "cover": "media/slides/c05/c05_01.jpg",
+   "alt": "8 false friends that trick English speakers — Gift means poison, Handy means mobile phone, bekommen means to get — German false friends explained with examples.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day17-pin",
+   "day": 17,
+   "kind": "pin",
+   "format": "pin",
+   "title": "8 German false friends every English speaker gets wrong",
+   "caption": "Gift means poison, Handy means mobile phone, bekommen means to get — German false friends explained with examples.",
+   "media": [
+    "media/pins/c05.jpg"
+   ],
+   "cover": "media/pins/c05.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day18-video",
+   "day": 18,
+   "kind": "video",
+   "format": "stop",
+   "title": "Stop saying „Ich will Lehrer bekommen.“",
+   "caption": "bekommen ≠ become ⚠️ The false friend that trips up every English speaker. Become = werden! #learngerman #falsefriends #germanmistakes #deutschlernen #germangrammar",
+   "yt_title": "bekommen ≠ become ⚠️ German False Friend #shorts",
+   "media": [
+    "media/videos/d18.mp4"
+   ],
+   "cover": "media/videos/d18.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day19-video",
+   "day": 19,
+   "kind": "video",
+   "format": "word",
+   "title": "Kummerspeck",
+   "caption": "Kummerspeck = grief bacon 🥓😭 The weight you gain from emotional eating. German has a word for everything. #learngerman #germanwords #deutschlernen #funnygerman #languagelearning",
+   "yt_title": "Kummerspeck = Grief Bacon 🥓 #germanwords #shorts",
+   "media": [
+    "media/videos/d19.mp4"
+   ],
+   "cover": "media/videos/d19.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day20-video",
+   "day": 20,
+   "kind": "video",
+   "format": "vs",
+   "title": "5 words that change in Austria",
+   "caption": "Moving to Austria? 🇦🇹 Matura, Spital, Trafik, Gehsteig — words Germans don't use the same way! #austria #vienna #austriangerman #learngerman #expatlife",
+   "yt_title": "Words That Change in Austria 🇦🇹 #shorts",
+   "media": [
+    "media/videos/d20.mp4"
+   ],
+   "cover": "media/videos/d20.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day20-carousel",
+   "day": 20,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Telling time like an Austrian",
+   "caption": "Telling time in German ⏰ halb vier = 3:30 (not 4:30!) and in Austria Viertel vier = 3:15 🇦🇹 Save this cheat sheet! #learngerman #germangrammar #austriangerman #deutschlernen #telltime",
+   "media": [
+    "media/slides/c06/c06_01.jpg",
+    "media/slides/c06/c06_02.jpg",
+    "media/slides/c06/c06_03.jpg",
+    "media/slides/c06/c06_04.jpg",
+    "media/slides/c06/c06_05.jpg",
+    "media/slides/c06/c06_06.jpg",
+    "media/slides/c06/c06_07.jpg"
+   ],
+   "cover": "media/slides/c06/c06_01.jpg",
+   "alt": "Telling time like an Austrian — halb vier, Viertel nach drei, Viertel vier, dreiviertel vier, fünf vor halb vier — German clock time explained with clocks.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day20-pin",
+   "day": 20,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Telling time in German (with Austrian German)",
+   "caption": "halb vier, Viertel nach drei, Viertel vier, dreiviertel vier, fünf vor halb vier — German clock time explained with clocks.",
+   "media": [
+    "media/pins/c06.jpg"
+   ],
+   "cover": "media/pins/c06.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day21-video",
+   "day": 21,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Ich glaube, mein Schwein pfeift!“",
+   "caption": "„Ich glaube, mein Schwein pfeift!“ 🐷 = I think my pig is whistling = I can't believe it! #learngerman #germanidioms #funnygerman #deutschlernen #germanlanguage",
+   "yt_title": "„My pig is whistling!“ 🐷 German Idiom #shorts",
+   "media": [
+    "media/videos/d21.mp4"
+   ],
+   "cover": "media/videos/d21.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day22-video",
+   "day": 22,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? knife · fork · spoon · sun · moon",
+   "caption": "Knife, fork and spoon all have DIFFERENT genders in German 🔪🍴🥄 How many did you get? #learngerman #derdiedas #germangrammar #germanquiz #deutschlernen",
+   "yt_title": "Why German Cutlery Has 3 Genders 🍴 #shorts",
+   "media": [
+    "media/videos/d22.mp4"
+   ],
+   "cover": "media/videos/d22.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day23-video",
+   "day": 23,
+   "kind": "video",
+   "format": "phrases",
+   "title": "6 words you need in Vienna",
+   "caption": "Moving to Vienna? 🇦🇹 Learn these 6 words first: Öffis, Bim, Meldezettel, Trafik, Beisl, Jause. Save for later! #vienna #wien #expatlife #learngerman #austria",
+   "yt_title": "6 Words You Need in Vienna 🚋 #shorts",
+   "media": [
+    "media/videos/d23.mp4"
+   ],
+   "cover": "media/videos/d23.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day23-carousel",
+   "day": 23,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "German words English needs",
+   "caption": "8 German words English desperately needs 🤯 Schadenfreude, Feierabend, Fernweh, Kummerspeck, Torschlusspanik… Which is your favourite? #learngerman #germanwords #deutschlernen #languagelearning #funnygerman",
+   "media": [
+    "media/slides/c09/c09_01.jpg",
+    "media/slides/c09/c09_02.jpg",
+    "media/slides/c09/c09_03.jpg",
+    "media/slides/c09/c09_04.jpg",
+    "media/slides/c09/c09_05.jpg",
+    "media/slides/c09/c09_06.jpg",
+    "media/slides/c09/c09_07.jpg",
+    "media/slides/c09/c09_08.jpg",
+    "media/slides/c09/c09_09.jpg",
+    "media/slides/c09/c09_10.jpg"
+   ],
+   "cover": "media/slides/c09/c09_01.jpg",
+   "alt": "German words English needs — Schadenfreude, Feierabend, Fernweh, Kummerspeck, Fremdschämen, verschlimmbessern, Torschlusspanik and Backpfeifengesicht — meanings and example sentences.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day23-pin",
+   "day": 23,
+   "kind": "pin",
+   "format": "pin",
+   "title": "8 untranslatable German words English needs",
+   "caption": "Schadenfreude, Feierabend, Fernweh, Kummerspeck, Fremdschämen, verschlimmbessern, Torschlusspanik and Backpfeifengesicht — meanings and example sentences.",
+   "media": [
+    "media/pins/c09.jpg"
+   ],
+   "cover": "media/pins/c09.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day24-video",
+   "day": 24,
+   "kind": "video",
+   "format": "stop",
+   "title": "Stop saying „Ich will ein Bier.“",
+   "caption": "Ordering in German: „Ich will…“ sounds demanding 😬 Say „Ich hätte gern…“ — and in Vienna ask for a Krügerl 🍺 #learngerman #vienna #deutschlernen #germanlanguage #austria",
+   "yt_title": "How to Order a Beer in German (Politely) 🍺 #shorts",
+   "media": [
+    "media/videos/d24.mp4"
+   ],
+   "cover": "media/videos/d24.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day25-video",
+   "day": 25,
+   "kind": "video",
+   "format": "word",
+   "title": "Fremdschämen",
+   "caption": "Fremdschämen = cringing FOR someone else 😬 Secondhand embarrassment, in one German word. #learngerman #germanwords #deutschlernen #cringe #languagelearning",
+   "yt_title": "Fremdschämen: Secondhand Embarrassment 😬 #shorts",
+   "media": [
+    "media/videos/d25.mp4"
+   ],
+   "cover": "media/videos/d25.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day26-video",
+   "day": 26,
+   "kind": "video",
+   "format": "vs",
+   "title": "Austrian food words, round 2",
+   "caption": "Austrian food words round 2 🇦🇹 Palatschinke, Faschiertes, Schwammerl, Ribisel, Hendl 😋 #austriangerman #learngerman #austria #foodwords #deutschlernen",
+   "yt_title": "Austrian vs German Food Words 2 🥞 #shorts",
+   "media": [
+    "media/videos/d26.mp4"
+   ],
+   "cover": "media/videos/d26.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day26-carousel",
+   "day": 26,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Hello & goodbye in Austria",
+   "caption": "How to say hello and goodbye in Austria 🇦🇹👋 Grüß Gott, Servus, Baba, Pfiat di, Auf Wiederschauen. Save for your trip! #austria #vienna #austriangerman #learngerman #deutschlernen",
+   "media": [
+    "media/slides/c08/c08_01.jpg",
+    "media/slides/c08/c08_02.jpg",
+    "media/slides/c08/c08_03.jpg",
+    "media/slides/c08/c08_04.jpg",
+    "media/slides/c08/c08_05.jpg",
+    "media/slides/c08/c08_06.jpg",
+    "media/slides/c08/c08_07.jpg",
+    "media/slides/c08/c08_08.jpg"
+   ],
+   "cover": "media/slides/c08/c08_01.jpg",
+   "alt": "Hello & goodbye in Austria — How to say hello and goodbye in Austria like a local — Grüß Gott, Servus, Grüß dich, Baba, Pfiat di and Auf Wiederschauen explained.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day26-pin",
+   "day": 26,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Austrian greetings: Grüß Gott, Servus, Baba & more",
+   "caption": "How to say hello and goodbye in Austria like a local — Grüß Gott, Servus, Grüß dich, Baba, Pfiat di and Auf Wiederschauen explained.",
+   "media": [
+    "media/pins/c08.jpg"
+   ],
+   "cover": "media/pins/c08.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day27-video",
+   "day": 27,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Jetzt geht's um die Wurst!“",
+   "caption": "„Jetzt geht's um die Wurst!“ 🌭 = now it's about the sausage = it's now or never! #learngerman #germanidioms #deutschlernen #funnygerman #germanlanguage",
+   "yt_title": "„Now it's about the sausage!“ 🌭 #shorts",
+   "media": [
+    "media/videos/d27.mp4"
+   ],
+   "cover": "media/videos/d27.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day28-video",
+   "day": 28,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? Austrian edition 🇦🇹",
+   "caption": "Der, die or das — Austrian edition 🇦🇹🧠 Sackerl, Paradeiser, Semmel… comment your score! #austriangerman #derdiedas #learngerman #germanquiz #austria",
+   "yt_title": "Der Die Das: Austrian Edition 🇦🇹 #shorts",
+   "media": [
+    "media/videos/d28.mp4"
+   ],
+   "cover": "media/videos/d28.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day29-video",
+   "day": 29,
+   "kind": "video",
+   "format": "word",
+   "title": "verschlimmbessern",
+   "caption": "verschlimmbessern = making something worse by trying to improve it 🛠️😅 We've all done it. #learngerman #germanwords #deutschlernen #funnygerman #languagelearning",
+   "yt_title": "verschlimmbessern: Fixing It Worse 🛠️ #shorts",
+   "media": [
+    "media/videos/d29.mp4"
+   ],
+   "cover": "media/videos/d29.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day29-carousel",
+   "day": 29,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Your first week in Vienna: survival words",
+   "caption": "Moving to Vienna? 🇦🇹 8 survival words for your first week: Meldezettel, Öffis, Bim, Trafik, Bankomat, Sackerl, Beisl, Jause. Save + share with a new Viennese! #vienna #wien #expatlife #learngerman #austria",
+   "media": [
+    "media/slides/c10/c10_01.jpg",
+    "media/slides/c10/c10_02.jpg",
+    "media/slides/c10/c10_03.jpg",
+    "media/slides/c10/c10_04.jpg",
+    "media/slides/c10/c10_05.jpg",
+    "media/slides/c10/c10_06.jpg",
+    "media/slides/c10/c10_07.jpg",
+    "media/slides/c10/c10_08.jpg",
+    "media/slides/c10/c10_09.jpg",
+    "media/slides/c10/c10_10.jpg"
+   ],
+   "cover": "media/slides/c10/c10_01.jpg",
+   "alt": "Your first week in Vienna: survival words — Expat guide to Vienna vocabulary: Meldezettel, Öffis, Bim, Trafik, Bankomat, Sackerl, Beisl and Jause explained with example sentences.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day29-pin",
+   "day": 29,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Moving to Vienna: 8 German survival words",
+   "caption": "Expat guide to Vienna vocabulary: Meldezettel, Öffis, Bim, Trafik, Bankomat, Sackerl, Beisl and Jause explained with example sentences.",
+   "media": [
+    "media/pins/c10.jpg"
+   ],
+   "cover": "media/pins/c10.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day30-video",
+   "day": 30,
+   "kind": "video",
+   "format": "phrases",
+   "title": "Austrian slang you'll hear everywhere",
+   "caption": "Austrian slang 101 😎🇦🇹 Leiwand, Oida, Passt, a bissl, Schmäh… Which one do you hear most? #austriangerman #vienna #austria #learngerman #slang",
+   "yt_title": "Austrian Slang You'll Hear Everywhere 😎 #shorts",
+   "media": [
+    "media/videos/d30.mp4"
+   ],
+   "cover": "media/videos/d30.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day31-video",
+   "day": 31,
+   "kind": "video",
+   "format": "vs",
+   "title": "Christmas: who brings the presents?",
+   "caption": "Christmas in Germany vs Austria 🎄🇦🇹 Who brings the presents — Weihnachtsmann or Christkind? And yes, in Austria it's DAS Keks 🍪 #learngerman #austriangerman #christmas #weihnachten #deutschlernen",
+   "yt_title": "Christmas: Germany vs Austria 🎄 #learngerman #shorts",
+   "media": [
+    "media/videos/d31.mp4"
+   ],
+   "cover": "media/videos/d31.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day32-video",
+   "day": 32,
+   "kind": "video",
+   "format": "stop",
+   "title": "Stop saying „Ich habe kalt.“",
+   "caption": "„Ich habe kalt“ ❌ „Mir ist kalt“ ✅ The mistake French and Spanish speakers make all winter 🥶 #learngerman #germanmistakes #deutschlernen #germangrammar #languagelearning",
+   "yt_title": "Don't Say „Ich habe kalt“ 🥶 #learngerman #shorts",
+   "media": [
+    "media/videos/d32.mp4"
+   ],
+   "cover": "media/videos/d32.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day32-carousel",
+   "day": 32,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "German words, translated literally",
+   "caption": "German doesn't do fancy words — it just describes things 😂 Hand shoe, glow pear, naked snail, tooth meat… Which one is your favorite? Save + share! #learngerman #germanwords #funnygerman #deutschlernen #germanlanguage",
+   "media": [
+    "media/slides/c13/c13_01.jpg",
+    "media/slides/c13/c13_02.jpg",
+    "media/slides/c13/c13_03.jpg",
+    "media/slides/c13/c13_04.jpg",
+    "media/slides/c13/c13_05.jpg",
+    "media/slides/c13/c13_06.jpg",
+    "media/slides/c13/c13_07.jpg",
+    "media/slides/c13/c13_08.jpg",
+    "media/slides/c13/c13_09.jpg",
+    "media/slides/c13/c13_10.jpg",
+    "media/slides/c13/c13_11.jpg",
+    "media/slides/c13/c13_12.jpg"
+   ],
+   "cover": "media/slides/c13/c13_01.jpg",
+   "alt": "German words, translated literally — Funny literal translations of German words: Handschuh, Kühlschrank, Staubsauger, Schildkröte, Faultier, Glühbirne, Zahnfleisch and more, with example sentences.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day32-pin",
+   "day": 32,
+   "kind": "pin",
+   "format": "pin",
+   "title": "10 German words translated literally (Handschuh = hand shoe)",
+   "caption": "Funny literal translations of German words: Handschuh, Kühlschrank, Staubsauger, Schildkröte, Faultier, Glühbirne, Zahnfleisch and more, with example sentences.",
+   "media": [
+    "media/pins/c13.jpg"
+   ],
+   "cover": "media/pins/c13.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day33-video",
+   "day": 33,
+   "kind": "video",
+   "format": "word",
+   "title": "Torschlusspanik",
+   "caption": "Torschlusspanik = gate-closing panic 🚪⏳ The fear that time is running out. Ever felt it? #learngerman #germanwords #deutschlernen #languagelearning #funnygerman",
+   "yt_title": "Torschlusspanik: Gate-Closing Panic ⏳ #shorts",
+   "media": [
+    "media/videos/d33.mp4"
+   ],
+   "cover": "media/videos/d33.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day34-video",
+   "day": 34,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? Christmas edition 🎄",
+   "caption": "Der, die or das — Christmas edition 🎄🧠 Kerze, Geschenk, Baum, Lebkuchen, Schneemann. Comment your score! #learngerman #derdiedas #germanquiz #weihnachten #deutschlernen",
+   "yt_title": "Der Die Das: Christmas Quiz 🎄 #shorts",
+   "media": [
+    "media/videos/d34.mp4"
+   ],
+   "cover": "media/videos/d34.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day35-video",
+   "day": 35,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Schwein haben“",
+   "caption": "„Schwein haben“ = to have pig = to be lucky 🐷🍀 Pigs mean luck: that's why Germans and Austrians give lucky pigs at New Year! #learngerman #germanidioms #deutschlernen #funnygerman #germanlanguage",
+   "yt_title": "„To have pig“ = to be lucky 🐷 #shorts",
+   "media": [
+    "media/videos/d35.mp4"
+   ],
+   "cover": "media/videos/d35.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day35-carousel",
+   "day": 35,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "„Mir ist …“: how to say how you feel in German",
+   "caption": "Never say „Ich bin heiß“ when you're just warm 😳🔥 In German, how your body feels goes with mir: Mir ist kalt, Mir ist schlecht, Mir ist fad 🇦🇹 Save this! #learngerman #germangrammar #deutschlernen #germanlanguage #austriangerman",
+   "media": [
+    "media/slides/c12/c12_01.jpg",
+    "media/slides/c12/c12_02.jpg",
+    "media/slides/c12/c12_03.jpg",
+    "media/slides/c12/c12_04.jpg",
+    "media/slides/c12/c12_05.jpg",
+    "media/slides/c12/c12_06.jpg",
+    "media/slides/c12/c12_07.jpg",
+    "media/slides/c12/c12_08.jpg",
+    "media/slides/c12/c12_09.jpg",
+    "media/slides/c12/c12_10.jpg"
+   ],
+   "cover": "media/slides/c12/c12_01.jpg",
+   "alt": "„Mir ist …“: how to say how you feel in German — Why Germans say „Mir ist kalt“ instead of „Ich bin kalt“: mir ist heiß, warm, langweilig (Austrian: fad), schlecht and schwindlig explained with examples.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day35-pin",
+   "day": 35,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Mir ist kalt, mir ist fad: how to say how you feel in German",
+   "caption": "Why Germans say „Mir ist kalt“ instead of „Ich bin kalt“: mir ist heiß, warm, langweilig (Austrian: fad), schlecht and schwindlig explained with examples.",
+   "media": [
+    "media/pins/c12.jpg"
+   ],
+   "cover": "media/pins/c12.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day36-video",
+   "day": 36,
+   "kind": "video",
+   "format": "phrases",
+   "title": "Christmas market German in Vienna",
+   "caption": "Christmas market German for Vienna 🎄☕ Punsch, Häferl, Pfand, Maroni — save this for your trip! #vienna #christmasmarket #learngerman #austria #weihnachtsmarkt",
+   "yt_title": "Christmas Market German in Vienna 🎄 #shorts",
+   "media": [
+    "media/videos/d36.mp4"
+   ],
+   "cover": "media/videos/d36.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day37-video",
+   "day": 37,
+   "kind": "video",
+   "format": "word",
+   "title": "Fingerspitzengefühl",
+   "caption": "Fingerspitzengefühl = fingertip feeling 🤌 Knowing exactly how to handle a delicate situation. #learngerman #germanwords #deutschlernen #languagelearning #germanlanguage",
+   "yt_title": "Fingerspitzengefühl: Fingertip Feeling 🤌 #shorts",
+   "media": [
+    "media/videos/d37.mp4"
+   ],
+   "cover": "media/videos/d37.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day38-video",
+   "day": 38,
+   "kind": "video",
+   "format": "stop",
+   "title": "Stop saying „Ich habe 25 Jahre.“",
+   "caption": "„Ich habe 25 Jahre“ ❌ „Ich bin 25 Jahre alt“ ✅ In German you ARE your age 😅 #learngerman #germanmistakes #deutschlernen #germangrammar #languagelearning",
+   "yt_title": "How to Say Your Age in German 🎂 #shorts",
+   "media": [
+    "media/videos/d38.mp4"
+   ],
+   "cover": "media/videos/d38.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day38-carousel",
+   "day": 38,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Same word, different gender (and meaning)",
+   "caption": "Same word, different article, totally different meaning 🔀 der See = lake, die See = sea; die Steuer = tax, das Steuer = steering wheel. Save this! #learngerman #derdiedas #germangrammar #deutschlernen #germanlanguage",
+   "media": [
+    "media/slides/c15/c15_01.jpg",
+    "media/slides/c15/c15_02.jpg",
+    "media/slides/c15/c15_03.jpg",
+    "media/slides/c15/c15_04.jpg",
+    "media/slides/c15/c15_05.jpg",
+    "media/slides/c15/c15_06.jpg",
+    "media/slides/c15/c15_07.jpg",
+    "media/slides/c15/c15_08.jpg",
+    "media/slides/c15/c15_09.jpg",
+    "media/slides/c15/c15_10.jpg"
+   ],
+   "cover": "media/slides/c15/c15_01.jpg",
+   "alt": "Same word, different gender (and meaning) — German nouns that change meaning with their article: der/die See, das/die/der Band, der/die Leiter, das/die Steuer, der/die Kiefer, das/der Gehalt and more.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day38-pin",
+   "day": 38,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Same German word, different gender: der See vs die See and more",
+   "caption": "German nouns that change meaning with their article: der/die See, das/die/der Band, der/die Leiter, das/die Steuer, der/die Kiefer, das/der Gehalt and more.",
+   "media": [
+    "media/pins/c15.jpg"
+   ],
+   "cover": "media/pins/c15.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day39-video",
+   "day": 39,
+   "kind": "video",
+   "format": "vs",
+   "title": "Vegetables with Austrian names",
+   "caption": "Vegetables with Austrian names 🇦🇹🥬 Vogerlsalat, Kohlsprossen, Melanzani, Eierschwammerl, Fisolen! #austriangerman #learngerman #austria #foodwords #deutschlernen",
+   "yt_title": "Vegetables Have Different Names in Austria 🥬 #shorts",
+   "media": [
+    "media/videos/d39.mp4"
+   ],
+   "cover": "media/videos/d39.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day40-video",
+   "day": 40,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Ich drücke dir die Daumen!“",
+   "caption": "„Ich drücke dir die Daumen!“ 🤞 Germans don't cross fingers — they press thumbs! #learngerman #germanidioms #deutschlernen #germanculture #germanlanguage",
+   "yt_title": "Why Germans Press Their Thumbs 👍 #shorts",
+   "media": [
+    "media/videos/d40.mp4"
+   ],
+   "cover": "media/videos/d40.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day41-video",
+   "day": 41,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? The last word decides!",
+   "caption": "The easiest der/die/das rule: compound nouns take the gender of the LAST word 🧠 Handschuh, Hausaufgabe, Fahrrad… Comment your score! #learngerman #derdiedas #germangrammar #germanquiz #deutschlernen",
+   "yt_title": "The Easiest Der Die Das Rule 🧠 #shorts",
+   "media": [
+    "media/videos/d41.mp4"
+   ],
+   "cover": "media/videos/d41.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day41-carousel",
+   "day": 41,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "German modal verbs in one swipe",
+   "caption": "German modal verbs in one swipe 🧩 können, müssen, dürfen, sollen, wollen, möchten. Watch out: „Ich will“ is NOT “I will” and „nicht müssen“ is NOT “must not”! #learngerman #germangrammar #deutschlernen #germanlanguage #modalverbs",
+   "media": [
+    "media/slides/c16/c16_01.jpg",
+    "media/slides/c16/c16_02.jpg",
+    "media/slides/c16/c16_03.jpg",
+    "media/slides/c16/c16_04.jpg",
+    "media/slides/c16/c16_05.jpg",
+    "media/slides/c16/c16_06.jpg",
+    "media/slides/c16/c16_07.jpg",
+    "media/slides/c16/c16_08.jpg"
+   ],
+   "cover": "media/slides/c16/c16_01.jpg",
+   "alt": "German modal verbs in one swipe — A quick guide to the six German modal verbs with example sentences, plus the classic trap: nicht müssen (don't have to) vs nicht dürfen (must not).",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day41-pin",
+   "day": 41,
+   "kind": "pin",
+   "format": "pin",
+   "title": "German modal verbs explained: können, müssen, dürfen, sollen, wollen, möchten",
+   "caption": "A quick guide to the six German modal verbs with example sentences, plus the classic trap: nicht müssen (don't have to) vs nicht dürfen (must not).",
+   "media": [
+    "media/pins/c16.jpg"
+   ],
+   "cover": "media/pins/c16.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day42-video",
+   "day": 42,
+   "kind": "video",
+   "format": "word",
+   "title": "Sitzfleisch",
+   "caption": "Sitzfleisch = sitting meat 🪑 The patience to sit through long, boring work. Do you have it? #learngerman #germanwords #deutschlernen #funnygerman #languagelearning",
+   "yt_title": "Sitzfleisch: Sitting Meat 🪑 #germanwords #shorts",
+   "media": [
+    "media/videos/d42.mp4"
+   ],
+   "cover": "media/videos/d42.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day43-video",
+   "day": 43,
+   "kind": "video",
+   "format": "phrases",
+   "title": "At the doctor in Austria",
+   "caption": "At the doctor in Austria 🩺🇦🇹 Termin, e-card, verkühlt, Fieber, Apotheke — save this before you need it! #austria #vienna #learngerman #expatlife #deutschlernen",
+   "yt_title": "At the Doctor in Austria: 6 Phrases 🩺 #shorts",
+   "media": [
+    "media/videos/d43.mp4"
+   ],
+   "cover": "media/videos/d43.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day44-video",
+   "day": 44,
+   "kind": "video",
+   "format": "stop",
+   "title": "Careful with „Ich bin gut.“",
+   "caption": "How are you? „Ich bin gut“ sounds like you're good AT something 😇 Say „Mir geht's gut“! #learngerman #germanmistakes #deutschlernen #germanlanguage #languagelearning",
+   "yt_title": "Don't Answer „Ich bin gut“ 😇 #learngerman #shorts",
+   "media": [
+    "media/videos/d44.mp4"
+   ],
+   "cover": "media/videos/d44.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day44-carousel",
+   "day": 44,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "At the doctor in Austria",
+   "caption": "Getting sick in Austria? 🤧🇦🇹 e-card, Ordination, verkühlt, Krankenstand — 8 words for your next doctor's visit. Save this! #austria #vienna #austriangerman #learngerman #expatlife",
+   "media": [
+    "media/slides/c14/c14_01.jpg",
+    "media/slides/c14/c14_02.jpg",
+    "media/slides/c14/c14_03.jpg",
+    "media/slides/c14/c14_04.jpg",
+    "media/slides/c14/c14_05.jpg",
+    "media/slides/c14/c14_06.jpg",
+    "media/slides/c14/c14_07.jpg",
+    "media/slides/c14/c14_08.jpg",
+    "media/slides/c14/c14_09.jpg",
+    "media/slides/c14/c14_10.jpg"
+   ],
+   "cover": "media/slides/c14/c14_01.jpg",
+   "alt": "At the doctor in Austria — Austrian German for doctor's visits: e-card, Ordination, Hausarzt, Termin ausmachen, verkühlt, Rezept, Apotheke and Krankenstand explained with examples.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day44-pin",
+   "day": 44,
+   "kind": "pin",
+   "format": "pin",
+   "title": "At the doctor in Austria: 8 German words you need",
+   "caption": "Austrian German for doctor's visits: e-card, Ordination, Hausarzt, Termin ausmachen, verkühlt, Rezept, Apotheke and Krankenstand explained with examples.",
+   "media": [
+    "media/pins/c14.jpg"
+   ],
+   "cover": "media/pins/c14.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day45-video",
+   "day": 45,
+   "kind": "video",
+   "format": "vs",
+   "title": "5 ways Austrians talk differently",
+   "caption": "5 words that give away an Austrian 🇦🇹 (or a Bavarian 😉) Bub, schauen, in der Früh, eh klar, heuer! #austriangerman #learngerman #austria #vienna #deutschlernen",
+   "yt_title": "5 Words That Give Away an Austrian 🇦🇹 #shorts",
+   "media": [
+    "media/videos/d45.mp4"
+   ],
+   "cover": "media/videos/d45.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day46-video",
+   "day": 46,
+   "kind": "video",
+   "format": "word",
+   "title": "Backpfeifengesicht",
+   "caption": "Backpfeifengesicht = a face that's begging for a slap 😤 We all know one… #learngerman #germanwords #funnygerman #deutschlernen #languagelearning",
+   "yt_title": "Backpfeifengesicht: A Slappable Face 😤 #shorts",
+   "media": [
+    "media/videos/d46.mp4"
+   ],
+   "cover": "media/videos/d46.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day47-video",
+   "day": 47,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Da steppt der Bär!“",
+   "caption": "„Da steppt der Bär!“ 🐻💃 = the bear is tap-dancing there = that's where the party is! #learngerman #germanidioms #funnygerman #deutschlernen #germanlanguage",
+   "yt_title": "„The bear is tap-dancing!“ 🐻 #shorts",
+   "media": [
+    "media/videos/d47.mp4"
+   ],
+   "cover": "media/videos/d47.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day47-carousel",
+   "day": 47,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Christmas in Austria: 10 words you'll need",
+   "caption": "Christmas in Austria 🎄🇦🇹 The Christkind brings the presents, the Krampus scares naughty kids and Punsch keeps you warm at the Christkindlmarkt. Save this for Advent! #christmasinaustria #austria #austriangerman #learngerman #weihnachten",
+   "media": [
+    "media/slides/c11/c11_01.jpg",
+    "media/slides/c11/c11_02.jpg",
+    "media/slides/c11/c11_03.jpg",
+    "media/slides/c11/c11_04.jpg",
+    "media/slides/c11/c11_05.jpg",
+    "media/slides/c11/c11_06.jpg",
+    "media/slides/c11/c11_07.jpg",
+    "media/slides/c11/c11_08.jpg",
+    "media/slides/c11/c11_09.jpg",
+    "media/slides/c11/c11_10.jpg",
+    "media/slides/c11/c11_11.jpg",
+    "media/slides/c11/c11_12.jpg"
+   ],
+   "cover": "media/slides/c11/c11_01.jpg",
+   "alt": "Christmas in Austria: 10 words you'll need — Austrian Christmas vocabulary explained: Advent, Adventkranz, Christkindlmarkt, Punsch, Christkind, Krampus, Nikolo, Keks and Heiliger Abend, with example sentences.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day47-pin",
+   "day": 47,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Christmas in Austria: 10 German words you'll need",
+   "caption": "Austrian Christmas vocabulary explained: Advent, Adventkranz, Christkindlmarkt, Punsch, Christkind, Krampus, Nikolo, Keks and Heiliger Abend, with example sentences.",
+   "media": [
+    "media/pins/c11.jpg"
+   ],
+   "cover": "media/pins/c11.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day48-video",
+   "day": 48,
+   "kind": "video",
+   "format": "phrases",
+   "title": "Krampus, explained in German",
+   "caption": "Krampus explained in German 😈🇦🇹 Nikolo, Krampus, Krampuslauf, Rute — Austria's wildest December tradition! #krampus #austria #learngerman #christmas #deutschlernen",
+   "yt_title": "Krampus Explained in German 😈 #shorts",
+   "media": [
+    "media/videos/d48.mp4"
+   ],
+   "cover": "media/videos/d48.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day49-video",
+   "day": 49,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? Winter edition ❄️",
+   "caption": "Der, die or das — winter edition ❄️🧠 Schnee, Mütze, Schal, Eis, Kälte. How many did you get? #learngerman #derdiedas #germanquiz #germangrammar #deutschlernen",
+   "yt_title": "Der Die Das: Winter Quiz ❄️ #shorts",
+   "media": [
+    "media/videos/d49.mp4"
+   ],
+   "cover": "media/videos/d49.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day50-video",
+   "day": 50,
+   "kind": "video",
+   "format": "stop",
+   "title": "Stop saying „Entschuldigung!“",
+   "caption": "Sorry ≠ sorry 😬 „Entschuldigung“ is for bumping into people. For sad news say „Das tut mir leid“. #learngerman #germanmistakes #deutschlernen #germanlanguage #languagelearning",
+   "yt_title": "Two Ways to Say Sorry in German 😬 #shorts",
+   "media": [
+    "media/videos/d50.mp4"
+   ],
+   "cover": "media/videos/d50.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day50-carousel",
+   "day": 50,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "8 polite phrases that make you sound kind in German",
+   "caption": "8 polite German phrases that make you sound kind 😊 Ich hätte gern…, Wäre es möglich…?, Gern geschehen — and the Austrian „Bitte gern!“ 🇦🇹 Save this! #learngerman #germanphrases #deutschlernen #germanlanguage #austriangerman",
+   "media": [
+    "media/slides/c19/c19_01.jpg",
+    "media/slides/c19/c19_02.jpg",
+    "media/slides/c19/c19_03.jpg",
+    "media/slides/c19/c19_04.jpg",
+    "media/slides/c19/c19_05.jpg",
+    "media/slides/c19/c19_06.jpg",
+    "media/slides/c19/c19_07.jpg",
+    "media/slides/c19/c19_08.jpg",
+    "media/slides/c19/c19_09.jpg",
+    "media/slides/c19/c19_10.jpg"
+   ],
+   "cover": "media/slides/c19/c19_01.jpg",
+   "alt": "8 polite phrases that make you sound kind in German — Könnten Sie mir bitte helfen?, Ich hätte gern…, Wäre es möglich…?, Gern geschehen and more polite German phrases, with Austrian variants like Bitte gern!",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day50-pin",
+   "day": 50,
+   "kind": "pin",
+   "format": "pin",
+   "title": "8 polite German phrases to sound kind and friendly",
+   "caption": "Könnten Sie mir bitte helfen?, Ich hätte gern…, Wäre es möglich…?, Gern geschehen and more polite German phrases, with Austrian variants like Bitte gern!",
+   "media": [
+    "media/pins/c19.jpg"
+   ],
+   "cover": "media/pins/c19.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day51-video",
+   "day": 51,
+   "kind": "video",
+   "format": "word",
+   "title": "Weltschmerz",
+   "caption": "Weltschmerz = world pain 🌍💔 That heavy feeling about the state of the world. November mood? #learngerman #germanwords #deutschlernen #languagelearning #germanlanguage",
+   "yt_title": "Weltschmerz: World Pain 🌍 #germanwords #shorts",
+   "media": [
+    "media/videos/d51.mp4"
+   ],
+   "cover": "media/videos/d51.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day52-video",
+   "day": 52,
+   "kind": "video",
+   "format": "clock",
+   "title": "Clock phrases, round 2",
+   "caption": "German clock phrases, round 2 ⏰ „fünf vor zwölf“ also means it's the last minute! #learngerman #germangrammar #deutschlernen #telltime #germanidioms",
+   "yt_title": "„Fünf vor zwölf“ Is Also an Idiom ⏰ #shorts",
+   "media": [
+    "media/videos/d52.mp4"
+   ],
+   "cover": "media/videos/d52.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day53-video",
+   "day": 53,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Hals- und Beinbruch!“",
+   "caption": "„Hals- und Beinbruch!“ 🦴 = neck and leg break = good luck! Germans go one step further than “break a leg”. #learngerman #germanidioms #funnygerman #deutschlernen #germanlanguage",
+   "yt_title": "„Neck and leg break!“ = Good luck 🦴 #shorts",
+   "media": [
+    "media/videos/d53.mp4"
+   ],
+   "cover": "media/videos/d53.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day53-carousel",
+   "day": 53,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Christmas: Germany vs Austria",
+   "caption": "Christmas in Germany vs Austria 🇩🇪🎄🇦🇹 Weihnachtsmann or Christkind? der Keks or das Keks? Adventskranz or Adventkranz? Save this for Advent! #austriangerman #learngerman #weihnachten #christmas #austria",
+   "media": [
+    "media/slides/c20/c20_01.jpg",
+    "media/slides/c20/c20_02.jpg",
+    "media/slides/c20/c20_03.jpg",
+    "media/slides/c20/c20_04.jpg",
+    "media/slides/c20/c20_05.jpg",
+    "media/slides/c20/c20_06.jpg",
+    "media/slides/c20/c20_07.jpg",
+    "media/slides/c20/c20_08.jpg"
+   ],
+   "cover": "media/slides/c20/c20_01.jpg",
+   "alt": "Christmas: Germany vs Austria — Weihnachtsmann vs Christkind, der Keks vs das Keks, Adventskranz vs Adventkranz, Weihnachtsmarkt vs Christkindlmarkt: Austrian vs German Christmas words.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day53-pin",
+   "day": 53,
+   "kind": "pin",
+   "format": "pin",
+   "title": "Christmas in Germany vs Austria: 6 word differences",
+   "caption": "Weihnachtsmann vs Christkind, der Keks vs das Keks, Adventskranz vs Adventkranz, Weihnachtsmarkt vs Christkindlmarkt: Austrian vs German Christmas words.",
+   "media": [
+    "media/pins/c20.jpg"
+   ],
+   "cover": "media/pins/c20.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day54-video",
+   "day": 54,
+   "kind": "video",
+   "format": "phrases",
+   "title": "New Year's Eve in Austria",
+   "caption": "New Year's Eve in Austria 🎆🇦🇹 Guten Rutsch, Prosit Neujahr, Donauwalzer, Pummerin, Glücksschwein! Save it for Silvester. #austria #vienna #silvester #learngerman #newyear",
+   "yt_title": "New Year's Eve in Austria 🎆 #learngerman #shorts",
+   "media": [
+    "media/videos/d54.mp4"
+   ],
+   "cover": "media/videos/d54.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day55-video",
+   "day": 55,
+   "kind": "video",
+   "format": "word",
+   "title": "Kopfkino",
+   "caption": "Kopfkino = head cinema 🎬🧠 When your imagination plays a full movie. Happens to you too? #learngerman #germanwords #deutschlernen #languagelearning #funnygerman",
+   "yt_title": "Kopfkino: Head Cinema 🎬 #germanwords #shorts",
+   "media": [
+    "media/videos/d55.mp4"
+   ],
+   "cover": "media/videos/d55.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day56-video",
+   "day": 56,
+   "kind": "video",
+   "format": "quiz",
+   "title": "Der, die or das? Same word, different gender!",
+   "caption": "Same word, different gender, different meaning 🤯 der See vs die See, die Leiter vs der Leiter… Comment your score! #learngerman #derdiedas #germangrammar #germanquiz #deutschlernen",
+   "yt_title": "Same German Word, 3 Genders 🤯 #shorts",
+   "media": [
+    "media/videos/d56.mp4"
+   ],
+   "cover": "media/videos/d56.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day56-carousel",
+   "day": 56,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "Austrian words you'll hear in Vienna",
+   "caption": "10 Austrian words you'll hear in Vienna 🇦🇹🎡 heuer, eh, fad, Krügerl, Haberer, leiwand… Which one is your favorite? Save this before your trip! #vienna #wien #austriangerman #learngerman #wienerisch",
+   "media": [
+    "media/slides/c17/c17_01.jpg",
+    "media/slides/c17/c17_02.jpg",
+    "media/slides/c17/c17_03.jpg",
+    "media/slides/c17/c17_04.jpg",
+    "media/slides/c17/c17_05.jpg",
+    "media/slides/c17/c17_06.jpg",
+    "media/slides/c17/c17_07.jpg",
+    "media/slides/c17/c17_08.jpg",
+    "media/slides/c17/c17_09.jpg",
+    "media/slides/c17/c17_10.jpg",
+    "media/slides/c17/c17_11.jpg",
+    "media/slides/c17/c17_12.jpg"
+   ],
+   "cover": "media/slides/c17/c17_01.jpg",
+   "alt": "Austrian words you'll hear in Vienna — Viennese and Austrian vocabulary for learners: heuer, eh, fad, Jause, G'spritzter, Krügerl, Seidl, Haberer, Hackn and leiwand explained with examples.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day56-pin",
+   "day": 56,
+   "kind": "pin",
+   "format": "pin",
+   "title": "10 Austrian German words you'll hear in Vienna",
+   "caption": "Viennese and Austrian vocabulary for learners: heuer, eh, fad, Jause, G'spritzter, Krügerl, Seidl, Haberer, Hackn and leiwand explained with examples.",
+   "media": [
+    "media/pins/c17.jpg"
+   ],
+   "cover": "media/pins/c17.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day57-video",
+   "day": 57,
+   "kind": "video",
+   "format": "vs",
+   "title": "Austrian words at home, round 2",
+   "caption": "Austrian words at home, round 2 🏠🇦🇹 Eiskasten, Häferl, Zuckerl, Pickerl, Patschen! #austriangerman #learngerman #austria #deutschlernen #germanwords",
+   "yt_title": "Austrian vs German: Home Words 2 🏠 #shorts",
+   "media": [
+    "media/videos/d57.mp4"
+   ],
+   "cover": "media/videos/d57.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day58-video",
+   "day": 58,
+   "kind": "video",
+   "format": "phrases",
+   "title": "Christmas Eve in Austria",
+   "caption": "Christmas Eve in Austria 🕯️🎄 Heiliger Abend, Christkind, Christbaum — and „Stille Nacht“ was first sung in Austria in 1818! #austria #christmas #weihnachten #learngerman #deutschlernen",
+   "yt_title": "Christmas Eve in Austria 🕯️ #learngerman #shorts",
+   "media": [
+    "media/videos/d58.mp4"
+   ],
+   "cover": "media/videos/d58.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day59-video",
+   "day": 59,
+   "kind": "video",
+   "format": "word",
+   "title": "Zweisamkeit",
+   "caption": "Zweisamkeit = the cozy togetherness of two 💑 The opposite of Einsamkeit (loneliness). #learngerman #germanwords #deutschlernen #languagelearning #germanlanguage",
+   "yt_title": "Zweisamkeit: The Opposite of Loneliness 💑 #shorts",
+   "media": [
+    "media/videos/d59.mp4"
+   ],
+   "cover": "media/videos/d59.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  },
+  {
+   "key": "day59-carousel",
+   "day": 59,
+   "kind": "carousel",
+   "format": "carousel",
+   "title": "New Year's Eve in Austria",
+   "caption": "How Austria celebrates New Year's Eve 🎆🇦🇹 The Pummerin rings at midnight, then everyone waltzes to the Donauwalzer. Prosit Neujahr! #silvester #newyearseve #vienna #austria #learngerman",
+   "media": [
+    "media/slides/c18/c18_01.jpg",
+    "media/slides/c18/c18_02.jpg",
+    "media/slides/c18/c18_03.jpg",
+    "media/slides/c18/c18_04.jpg",
+    "media/slides/c18/c18_05.jpg",
+    "media/slides/c18/c18_06.jpg",
+    "media/slides/c18/c18_07.jpg",
+    "media/slides/c18/c18_08.jpg",
+    "media/slides/c18/c18_09.jpg",
+    "media/slides/c18/c18_10.jpg"
+   ],
+   "cover": "media/slides/c18/c18_01.jpg",
+   "alt": "New Year's Eve in Austria — Guten Rutsch, Prosit Neujahr, Silvesterpfad, Pummerin, Donauwalzer, Glücksschwein and the Neujahrskonzert: how Austria celebrates New Year's Eve, explained in German.",
+   "platforms": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "key": "day59-pin",
+   "day": 59,
+   "kind": "pin",
+   "format": "pin",
+   "title": "New Year's Eve in Austria: Silvester words and traditions",
+   "caption": "Guten Rutsch, Prosit Neujahr, Silvesterpfad, Pummerin, Donauwalzer, Glücksschwein and the Neujahrskonzert: how Austria celebrates New Year's Eve, explained in German.",
+   "media": [
+    "media/pins/c18.jpg"
+   ],
+   "cover": "media/pins/c18.jpg",
+   "platforms": [
+    "pinterest"
+   ]
+  },
+  {
+   "key": "day60-video",
+   "day": 60,
+   "kind": "video",
+   "format": "idiom",
+   "title": "„Jetzt haben wir den Salat!“",
+   "caption": "„Jetzt haben wir den Salat!“ 🥗 = now we have the salad = now we're in a mess! #learngerman #germanidioms #funnygerman #deutschlernen #germanlanguage",
+   "yt_title": "„Now we have the salad!“ 🥗 #shorts",
+   "media": [
+    "media/videos/d60.mp4"
+   ],
+   "cover": "media/videos/d60.jpg",
+   "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube"
+   ],
+   "thumb_ms": 700
+  }
+ ]
+}

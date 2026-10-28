@@ -1,0 +1,9 @@
+{"steps": [
+ {"id": "accounts", "title": "Brand email, TikTok, Instagram, YouTube", "who": "you", "detail": "Create the accounts (SETUP.md, part A). Profiles from the Setup kit.", "status": "todo"},
+ {"id": "buffer", "title": "Buffer: 3 channels + API key", "who": "you", "detail": "Connect TikTok, Instagram and YouTube in Buffer; create the API key.", "status": "todo", "auto": "channels"},
+ {"id": "github", "title": "GitHub repo, secret and Pages", "who": "you", "detail": "Upload the folder, add BUFFER_API_KEY, turn on Pages, run the Autopilot workflow.", "status": "todo", "auto": "runs"},
+ {"id": "live", "title": "Autopilot live", "who": "claude", "detail": "Day 1 is set and the first week is queued in Buffer. Claude checks the first run.", "status": "todo", "auto": "live"},
+ {"id": "shop", "title": "Payhip shop + payouts", "who": "you", "detail": "Free guide (€0) and Starter Deck (€9); listings and covers from the Setup kit.", "status": "todo", "auto": "shop"},
+ {"id": "links", "title": "Shop link in every bio", "who": "you", "detail": "TikTok, Instagram, YouTube. Optional: links.shop in config.json.", "status": "todo"},
+ {"id": "pinterest", "title": "Pinterest (optional)", "who": "both", "detail": "Business account + board; upload the bulk CSV Claude prepares.", "status": "todo"}
+]}

@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Servus German Mission Control</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one column control room — status first, then what's next, then the month, then setup. */
+:root{
+  --bg:#FFF6EA; --surface:#FFFFFF; --sunk:#F6E8D5; --fg:#18161C; --muted:#6E6570; --line:#EADCC8;
+  --accent:#E4002B; --accent-ink:#FFFFFF;
+  --ok:#138A43; --ok-bg:#DDF3E5; --sched:#2457D6; --sched-bg:#E1E9FC; --bad:#C81E3A; --bad-bg:#FBE1E5; --warn:#9A6400; --warn-bg:#FFF0C7;
+  --display:'Bricolage Grotesque','Figtree',system-ui,sans-serif; --body:'Figtree',system-ui,-apple-system,'Segoe UI',sans-serif; --r:18px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141217; --surface:#1E1B22; --sunk:#27232C; --fg:#F6EFE6; --muted:#A79EA9; --line:#332E38;
+  --accent:#FF3B5C; --accent-ink:#1A0A0E; --ok:#4ADE80; --ok-bg:#16301F; --sched:#8DB0FF; --sched-bg:#1C2640; --bad:#FF7A8C; --bad-bg:#3A1820; --warn:#FFC93C; --warn-bg:#33290F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141217; --surface:#1E1B22; --sunk:#27232C; --fg:#F6EFE6; --muted:#A79EA9; --line:#332E38;
+  --accent:#FF3B5C; --accent-ink:#1A0A0E; --ok:#4ADE80; --ok-bg:#16301F; --sched:#8DB0FF; --sched-bg:#1C2640; --bad:#FF7A8C; --bad-bg:#3A1820; --warn:#FFC93C; --warn-bg:#33290F; color-scheme:dark}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:960px;margin:0 auto;padding-inline:16px;padding-block:20px 64px;display:flex;flex-direction:column;gap:28px}
+h1,h2{font-family:var(--display);letter-spacing:-.015em;line-height:1.1;margin:0;text-wrap:balance}
+h1{font-size:clamp(24px,4.5vw,32px);font-weight:800}
+h2{font-size:20px;font-weight:800}
+.lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sub{color:var(--muted);font-size:14px}
+a{color:var(--accent);font-weight:600}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #FFC93C;outline-offset:2px}
+header{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+header .t{flex:1 1 260px;min-width:0}
+.pill{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14px;padding:8px 14px;border-radius:99px}
+.pill i{width:9px;height:9px;border-radius:50%;background:currentColor}
+.pill.ok{background:var(--ok-bg);color:var(--ok)} .pill.bad{background:var(--bad-bg);color:var(--bad)} .pill.idle{background:var(--sunk);color:var(--muted)}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:700px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.tile b{font-family:var(--display);font-size:30px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+.tile span{font-size:13px;color:var(--muted)}
+.alerts{display:flex;flex-direction:column;gap:8px}
+.alert{border-radius:14px;padding:12px 14px;font-size:15px;display:flex;gap:10px;align-items:flex-start}
+.alert.bad{background:var(--bad-bg);color:var(--fg)} .alert.warn{background:var(--warn-bg);color:var(--fg)}
+.alert strong{white-space:nowrap}
+section{display:flex;flex-direction:column;gap:12px}
+.day{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.day.today{border:2px solid var(--accent)}
+.dayhead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.dayhead b{font-family:var(--display);font-size:17px}
+.post{display:grid;grid-template-columns:56px minmax(0,1fr);gap:14px;padding:12px 16px;align-items:center}
+.post + .post{border-top:1px solid var(--line)}
+.post img{width:56px;height:72px;object-fit:cover;border-radius:10px;background:var(--sunk);display:block}
+.post .ti{font-weight:700;overflow-wrap:anywhere}
+.post .meta{font-size:13px;color:var(--muted);margin-bottom:6px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;font-weight:700;padding:3px 9px;border-radius:99px;border:1px solid var(--line);color:var(--muted);text-decoration:none;white-space:nowrap}
+.chip.sent{background:var(--ok-bg);color:var(--ok);border-color:transparent}
+.chip.scheduled,.chip.sending{background:var(--sched-bg);color:var(--sched);border-color:transparent}
+.chip.error,.chip.failed_to_create{background:var(--bad-bg);color:var(--bad);border-color:transparent}
+.chip.missed{background:var(--sunk);color:var(--muted);border-style:dashed}
+.legend{display:flex;gap:8px;flex-wrap:wrap}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.cell{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:6px 7px;min-height:64px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.cell.today{outline:2px solid var(--accent);outline-offset:-1px}
+.cell.empty{background:transparent;border-style:dashed}
+.cell .d{font-size:12px;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}
+.cell .dots{display:flex;flex-wrap:wrap;gap:3px}
+.dot{width:10px;height:10px;border-radius:3px;border:1.5px solid var(--line);background:transparent}
+.dot.sent{background:var(--ok);border-color:var(--ok)} .dot.scheduled,.dot.sending{background:var(--sched);border-color:var(--sched)}
+.dot.error,.dot.failed_to_create{background:var(--bad);border-color:var(--bad)} .dot.missed{border-style:dashed}
+.wk{font-size:11px;font-weight:700;color:var(--muted);text-align:center;letter-spacing:.06em}
+.setup{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:6px 16px}
+.step{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:12px;padding:12px 0;align-items:start}
+.step + .step{border-top:1px solid var(--line)}
+.step .ck{width:24px;height:24px;border-radius:50%;border:2px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.step.done .ck{background:var(--ok);border-color:var(--ok);color:var(--surface)}
+.step.done .st{color:var(--muted);text-decoration:line-through}
+.who{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:99px;background:var(--sunk);color:var(--muted);white-space:nowrap}
+.bar{height:8px;border-radius:99px;background:var(--sunk);overflow:hidden}.bar i{display:block;height:100%;background:var(--ok)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:8px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;vertical-align:top}
+.scroll{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:4px 8px}
+details summary{cursor:pointer;font-weight:700}
+.links{display:flex;gap:10px;flex-wrap:wrap}
+.links a{font-size:14px;padding:8px 12px;border-radius:99px;background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--fg)}
+.empty-note{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:16px;color:var(--muted)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg width="48" height="48" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="26" fill="#E4002B"/><path d="M22 30 a10 10 0 0 1 10 -10 h36 a10 10 0 0 1 10 10 v26 a10 10 0 0 1 -10 10 h-22 l-14 12 v-12 a10 10 0 0 1 -10 -10z" fill="#fff"/><rect x="31" y="37" width="38" height="5" rx="2.5" fill="#E4002B"/><rect x="31" y="47" width="26" height="5" rx="2.5" fill="#E4002B"/></svg>
+    <div class="t"><h1>Servus German Mission Control</h1><div class="sub" id="lastrun">Loading status…</div></div>
+    <span class="pill idle" id="status"><i></i>Loading</span>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+  <div class="alerts" id="alerts"></div>
+
+  <section aria-labelledby="h-next"><h2 id="h-next">Next 7 days</h2><div id="next"></div></section>
+
+  <section aria-labelledby="h-cal">
+    <h2 id="h-cal">This batch</h2>
+    <div class="legend"><span class="chip sent">Posted</span><span class="chip scheduled">Scheduled</span><span class="chip">Planned</span><span class="chip error">Failed</span><span class="chip missed">Missed</span></div>
+    <div class="cal" id="cal"></div>
+  </section>
+
+  <section aria-labelledby="h-res"><h2 id="h-res">Published</h2><div id="results"></div></section>
+
+  <section aria-labelledby="h-setup">
+    <h2 id="h-setup">Setup</h2>
+    <div class="bar" aria-hidden="true"><i id="setupbar"></i></div>
+    <div class="setup" id="setup"></div>
+  </section>
+
+  <section aria-labelledby="h-runs"><details><summary id="h-runs">Autopilot runs</summary><div class="scroll" style="margin-top:10px"><table id="runs"></table></div></details></section>
+
+  <div class="links" id="links"></div>
+  <p class="sub">Status updates twice a day (06:23 and 16:23 UTC) and whenever the schedule changes. Posts are published by Buffer at the scheduled time.</p>
+</div>
+<script>
+const PL = {tiktok:"TikTok", instagram:"Instagram", youtube:"YouTube", pinterest:"Pinterest"};
+const ST = {sent:"Posted", scheduled:"Scheduled", sending:"Sending", error:"Failed", failed_to_create:"Not scheduled", missed:"Missed", planned:"Planned"};
+const qs = new URLSearchParams(location.search);
+const NOW = qs.get("now") ? new Date(qs.get("now")) : new Date();
+function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function rawBase(){
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  const repo = location.pathname.split("/").filter(Boolean)[0];
+  return (m && repo && !qs.has("local")) ? `https://raw.githubusercontent.com/${m[1]}/${repo}/main/` : "";
+}
+async function get(path, fresh){
+  const urls = fresh && rawBase() ? [rawBase() + path + "?t=" + Date.now(), path + "?t=" + Date.now()] : [path + "?t=" + Date.now()];
+  for (const u of urls){ try { const r = await fetch(u, {cache:"no-store"}); if (r.ok) return await r.json(); } catch(e){} }
+  return null;
+}
+function ago(d){ const m = Math.round((NOW - d)/60000); if (m < 2) return "just now"; if (m < 60) return m + " min ago"; const h = Math.round(m/60); if (h < 48) return h + " h ago"; return Math.round(h/24) + " days ago"; }
+function localTimes(cfg, post){
+  const [y,mo,d] = cfg.start_date.split("-").map(Number);
+  const [hh,mm] = (cfg.times[post.kind] || "18:00").split(":").map(Number);
+  // the schedule is in Europe/Vienna; find the UTC instant for that wall time
+  const guess = Date.UTC(y, mo-1, d + post.day - 1, hh, mm);
+  const off = tzOffset(new Date(guess), cfg.timezone);
+  return new Date(guess - off);
+}
+function tzOffset(date, tz){
+  const p = new Intl.DateTimeFormat("en-US", {timeZone: tz, hour12:false, year:"numeric", month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit"}).formatToParts(date);
+  const v = Object.fromEntries(p.map(x => [x.type, x.value]));
+  const asUTC = Date.UTC(+v.year, +v.month-1, +v.day, +v.hour % 24, +v.minute);
+  return asUTC - date.getTime();
+}
+function slotStatus(q, post, plat, due){
+  const e = q[post.key + "|" + plat];
+  if (e) return e;
+  return {status: due < NOW ? "missed" : "planned"};
+}
+(async () => {
+  const [cfg, sched, setup, queue, runs] = await Promise.all([get("config.json", true), get("schedule.json"), get("setup.json", true), get("state/queue.json", true), get("state/runs.json", true)]);
+  const q = queue || {}; const R = runs || []; const last = R[0];
+  const enabled = cfg ? Object.keys(cfg.platforms || {}).filter(p => cfg.platforms[p]) : [];
+  const live = !!(cfg && cfg.start_date);
+  // header status
+  const st = document.getElementById("status");
+  if (!live){ st.className = "pill idle"; st.innerHTML = "<i></i>Not live yet"; }
+  else if (last && last.ok === false){ st.className = "pill bad"; st.innerHTML = "<i></i>Needs attention"; }
+  else { st.className = "pill ok"; st.innerHTML = "<i></i>On autopilot"; }
+  document.getElementById("lastrun").textContent = last ? `Last autopilot run ${ago(new Date(last.finished))}${last.org ? " · Buffer: " + last.org : ""}` : "The autopilot hasn't run yet.";
+
+  // slots
+  const slots = [];
+  if (live && sched) for (const post of sched.posts){
+    const due = localTimes(cfg, post);
+    for (const plat of post.platforms) if (enabled.includes(plat)) slots.push({post, plat, due, e: slotStatus(q, post, plat, due)});
+  }
+  const count = s => slots.filter(x => x.e.status === s).length;
+  const sent = count("sent"), queued = count("scheduled") + count("sending");
+  const lastDue = slots.length ? new Date(Math.max(...slots.map(s => s.due))) : null;
+  const runway = lastDue ? Math.max(0, Math.ceil((lastDue - NOW)/86400000)) : 0;
+  const eng = {}; for (const s of slots) for (const [k,v] of Object.entries(s.e.metrics || {})) eng[k] = (eng[k]||0) + v;
+  const engTotal = ["reactions","comments","saves","shares"].reduce((a,k) => a + (eng[k]||0), 0);
+  const tiles = [
+    [sent, "posts published"], [queued, "scheduled in Buffer"],
+    [live ? runway + " d" : "—", lastDue ? "content left (until " + lastDue.toLocaleDateString(undefined,{day:"numeric",month:"short"}) + ")" : "content runway"],
+    [engTotal ? Math.round(engTotal).toLocaleString() : "—", "likes, comments & saves"]];
+  document.getElementById("tiles").innerHTML = tiles.map(([b,s]) => `<div class="tile"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+
+  // alerts
+  const al = [];
+  if (last) for (const e of last.errors || []) al.push(["bad", "Problem", e]);
+  if (last) for (const w of last.warnings || []) al.push(["warn", "Heads-up", w]);
+  const failed = slots.filter(s => s.e.status === "error");
+  if (failed.length) al.push(["bad", "Failed posts", `${failed.length} post(s) failed to publish — ${esc(failed[0].e.error || "see Buffer")}. Reconnect the channel in Buffer, then re-share them there.`]);
+  if (live && runway < 10) al.push(["warn", "Content", `About ${runway} days of posts left. Ask Claude for the next batch.`]);
+  document.getElementById("alerts").innerHTML = al.map(([c,t,m]) => `<div class="alert ${c}"><strong>${t}</strong><span>${esc(m)}</span></div>`).join("");
+
+  // next 7 days
+  const fmtDay = new Intl.DateTimeFormat(undefined, {weekday:"long", day:"numeric", month:"long", timeZone: cfg ? cfg.timezone : undefined});
+  const fmtTime = new Intl.DateTimeFormat(undefined, {hour:"2-digit", minute:"2-digit", timeZone: cfg ? cfg.timezone : undefined});
+  const dayKey = d => new Intl.DateTimeFormat("en-CA", {timeZone: cfg ? cfg.timezone : undefined}).format(d);
+  const todayKey = dayKey(NOW);
+  const nextBox = document.getElementById("next");
+  if (!live){ nextBox.innerHTML = `<div class="empty-note">Nothing is scheduled yet. Once setup is done, the next 7 days of posts appear here with their status on each platform.</div>`; }
+  else {
+    const horizon = new Date(NOW.getTime() + 7*86400000);
+    const posts = new Map();
+    for (const s of slots) if (s.due >= new Date(NOW.getTime() - 12*3600000) && s.due <= horizon){
+      const k = s.post.key; if (!posts.has(k)) posts.set(k, {post: s.post, due: s.due, plats: []}); posts.get(k).plats.push(s);
+    }
+    const byDay = new Map();
+    for (const p of [...posts.values()].sort((a,b) => a.due - b.due)){ const k = dayKey(p.due); if (!byDay.has(k)) byDay.set(k, []); byDay.get(k).push(p); }
+    nextBox.innerHTML = [...byDay.entries()].map(([k, ps]) => `<div class="day${k === todayKey ? " today" : ""}"><div class="dayhead"><b>${fmtDay.format(ps[0].due)}</b>${k === todayKey ? '<span class="chip scheduled">Today</span>' : ""}</div>` +
+      ps.map(p => `<div class="post"><img src="${esc(p.post.cover)}" alt="" loading="lazy"><div><div class="ti">${esc(p.post.title)}</div><div class="meta">${fmtTime.format(p.due)} · ${p.post.kind === "video" ? "Short video" : p.post.kind === "carousel" ? "Carousel · " + p.post.media.length + " slides" : "Pin"}</div><div class="chips">` +
+        p.plats.map(s => s.e.link ? `<a class="chip ${s.e.status}" href="${esc(s.e.link)}" target="_blank" rel="noopener">${PL[s.plat]} · ${ST[s.e.status] || s.e.status} ↗</a>` : `<span class="chip ${s.e.status}" title="${esc(s.e.error || "")}">${PL[s.plat]} · ${ST[s.e.status] || s.e.status}</span>`).join("") + `</div></div></div>`).join("") + `</div>`).join("") || `<div class="empty-note">No posts in the next 7 days.</div>`;
+  }
+
+  // calendar
+  const cal = document.getElementById("cal");
+  if (!live || !sched){ cal.innerHTML = `<div class="empty-note" style="grid-column:1/-1">The calendar fills in once the start date is set.</div>`; }
+  else {
+    const days = Math.max(...sched.posts.map(p => p.day));
+    const first = localTimes(cfg, {kind:"video", day:1});
+    const wd = (new Date(first).getUTCDay() + 6) % 7;
+    let h = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d => `<div class="wk">${d}</div>`).join("");
+    for (let i = 0; i < wd; i++) h += `<div class="cell empty" aria-hidden="true"></div>`;
+    const fmtD = new Intl.DateTimeFormat(undefined, {day:"numeric", month:"short", timeZone: cfg.timezone});
+    for (let d = 1; d <= days; d++){
+      const ds = slots.filter(s => s.post.day === d);
+      const k = ds.length ? dayKey(ds[0].due) : "";
+      h += `<div class="cell${k === todayKey ? " today" : ""}" title="Day ${d}"><span class="d">${ds.length ? fmtD.format(ds[0].due) : "Day " + d}</span><span class="dots">${ds.map(s => `<i class="dot ${s.e.status}" title="${PL[s.plat]}: ${ST[s.e.status] || s.e.status} · ${esc(s.post.title)}"></i>`).join("")}</span></div>`;
+    }
+    cal.innerHTML = h;
+  }
+
+  // results
+  const sentSlots = slots.filter(s => s.e.status === "sent").sort((a,b) => b.due - a.due);
+  const res = document.getElementById("results");
+  if (!sentSlots.length) res.innerHTML = `<div class="empty-note">Published posts show up here with their link and engagement.</div>`;
+  else {
+    const per = {}; for (const s of sentSlots){ per[s.plat] = per[s.plat] || {n:0, m:{}}; per[s.plat].n++; for (const [k,v] of Object.entries(s.e.metrics || {})) per[s.plat].m[k] = (per[s.plat].m[k]||0) + v; }
+    const mk = [...new Set(sentSlots.flatMap(s => Object.keys(s.e.metrics || {})))].slice(0, 5);
+    res.innerHTML = `<div class="scroll"><table><tr><th>Platform</th><th>Posts</th>${mk.map(k => `<th>${esc(k)}</th>`).join("")}</tr>` +
+      Object.entries(per).map(([p,v]) => `<tr><td>${PL[p]}</td><td>${v.n}</td>${mk.map(k => `<td>${Math.round(v.m[k]||0).toLocaleString()}</td>`).join("")}</tr>`).join("") + `</table></div>` +
+      `<details><summary>Latest ${Math.min(12, sentSlots.length)} posts</summary><div class="scroll" style="margin-top:10px"><table><tr><th>Date</th><th>Post</th><th>Platform</th>${mk.map(k => `<th>${esc(k)}</th>`).join("")}</tr>` +
+      sentSlots.slice(0, 12).map(s => `<tr><td>${fmtD2(s.due)}</td><td>${s.e.link ? `<a href="${esc(s.e.link)}" target="_blank" rel="noopener">${esc(s.post.title)}</a>` : esc(s.post.title)}</td><td>${PL[s.plat]}</td>${mk.map(k => `<td>${Math.round((s.e.metrics||{})[k]||0)}</td>`).join("")}</tr>`).join("") + `</table></div></details>`;
+  }
+  function fmtD2(d){ return new Intl.DateTimeFormat(undefined, {day:"numeric", month:"short", timeZone: cfg.timezone}).format(d); }
+
+  // setup
+  const steps = ((setup && setup.steps) || []).map(s => {
+    const auto = s.auto === "channels" ? !!(R.find(r => r.channels && Object.keys(r.channels).length))
+      : s.auto === "runs" ? R.some(r => r.org) : s.auto === "live" ? live && slots.some(x => x.e.buffer_id || x.e.status === "sent")
+      : s.auto === "shop" ? !!(cfg && cfg.links && cfg.links.shop) : false;
+    return auto ? Object.assign({}, s, {status: "done"}) : s;
+  });
+  const done = steps.filter(s => s.status === "done").length;
+  document.getElementById("setupbar").style.width = steps.length ? (100*done/steps.length) + "%" : "0";
+  document.getElementById("setup").innerHTML = steps.map(s => `<div class="step${s.status === "done" ? " done" : ""}"><span class="ck">${s.status === "done" ? "✓" : ""}</span><div><div class="st" style="font-weight:700">${esc(s.title)}</div><div class="sub">${esc(s.detail)}</div></div><span class="who">${s.who === "you" ? "You" : s.who === "claude" ? "Claude" : "You + Claude"}</span></div>`).join("") || `<div class="sub">No setup steps.</div>`;
+
+  // runs
+  document.getElementById("runs").innerHTML = `<tr><th>When</th><th>Scheduled</th><th>Status changes</th><th>Result</th></tr>` +
+    R.slice(0, 12).map(r => `<tr><td>${new Date(r.finished).toLocaleString(undefined,{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}</td><td>${r.created}</td><td>${r.updated}</td><td>${r.ok ? "OK" : esc((r.errors||[])[0] || "Error")}</td></tr>`).join("");
+
+  // links
+  const L = (cfg && cfg.links) || {};
+  document.getElementById("links").innerHTML = Object.entries(L).filter(([k,v]) => v).map(([k,v]) => `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(k[0].toUpperCase() + k.slice(1))} ↗</a>`).join("");
+})();
+</script>
+</body>
+</html>

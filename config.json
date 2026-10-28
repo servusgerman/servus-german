@@ -1,0 +1,28 @@
+{
+ "timezone": "Europe/Vienna",
+ "start_date": null,
+ "times": {
+  "video": "18:00",
+  "carousel": "12:30",
+  "pin": "20:00"
+ },
+ "queue_days": 7,
+ "max_queued_per_channel": 9,
+ "platforms": {
+  "tiktok": true,
+  "instagram": true,
+  "youtube": true,
+  "pinterest": false
+ },
+ "label_ai": true,
+ "pinterest_board_id": null,
+ "links": {
+  "shop": null,
+  "tiktok": null,
+  "instagram": null,
+  "youtube": null,
+  "pinterest": null,
+  "buffer": "https://publish.buffer.com"
+ },
+ "youtube_footer": "🎁 Free Austrian German Survival Guide: link on our channel page.\nVoices in this video are AI-generated."
+}
