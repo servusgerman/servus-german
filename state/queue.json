@@ -2,7 +2,7 @@
  "day01-video|tiktok": {
   "buffer_id": "6ae1beb617d013af799e0b6e",
   "due": "2026-10-29T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-10-28T09:21:58.000Z",
   "metrics": {
@@ -14,19 +14,23 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-10-29T17:07:18.858Z",
+  "link": "https://tiktok.com/@servus.german/video/7702137055177870625"
  },
  "day01-video|instagram": {
   "buffer_id": "6ae1beb60e101a27fcd59df7",
   "due": "2026-10-29T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-10-28T09:21:58.000Z"
+  "created": "2026-10-28T09:21:58.000Z",
+  "sent": "2026-10-29T17:04:51.528Z",
+  "link": "https://www.instagram.com/reel/DfFf9vogn7w/"
  },
  "day01-video|youtube": {
   "buffer_id": "6ae1beb6af9616deeb9ccbab",
   "due": "2026-10-29T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-10-28T09:21:58.000Z",
   "metrics": {
@@ -34,7 +38,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-10-29T17:03:16.777Z",
+  "link": "https://www.youtube.com/shorts/fKq94q5aXqE"
  },
  "day02-carousel|instagram": {
   "buffer_id": "6ae1beb90e101a27fcd59f80",
@@ -305,5 +311,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day08-carousel|instagram": {
+  "buffer_id": "6ae37ecba23f0986fe06d9fc",
+  "due": "2026-11-05T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-10-29T17:13:47.000Z"
+ },
+ "day08-carousel|tiktok": {
+  "buffer_id": "6ae37ecb5a87bd1f00ac2efa",
+  "due": "2026-11-05T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-10-29T17:13:47.000Z"
+ },
+ "day08-video|youtube": {
+  "buffer_id": "6ae37eccd0477c3f9f6d4f5e",
+  "due": "2026-11-05T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-10-29T17:13:48.000Z"
  }
 }
