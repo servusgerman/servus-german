@@ -324,13 +324,29 @@
   "due": "2026-11-05T11:30:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-10-29T17:13:47.000Z"
+  "created": "2026-10-29T17:13:47.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day08-video|youtube": {
   "buffer_id": "6ae37eccd0477c3f9f6d4f5e",
   "due": "2026-11-05T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-10-29T17:13:48.000Z"
+  "created": "2026-10-29T17:13:48.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
