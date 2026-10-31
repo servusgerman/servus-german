@@ -83,7 +83,7 @@
  "day02-video|tiktok": {
   "buffer_id": "6ae1beba0e101a27fcd5a0a9",
   "due": "2026-10-30T17:00:00.000Z",
-  "status": "sending",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-10-28T09:22:02.000Z",
   "metrics": {
@@ -95,14 +95,18 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-10-30T17:05:09.135Z",
+  "link": "https://tiktok.com/@servus.german/video/7702507735312583969"
  },
  "day02-video|instagram": {
   "buffer_id": "6ae1beba92a79b7aa170100c",
   "due": "2026-10-30T17:00:00.000Z",
-  "status": "sending",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-10-28T09:22:03.000Z"
+  "created": "2026-10-28T09:22:03.000Z",
+  "sent": "2026-10-30T17:06:54.940Z",
+  "link": "https://www.instagram.com/reel/DfIFAEqDsUk/"
  },
  "day02-video|youtube": {
   "buffer_id": "6ae1bebb43bad65094ed0cb6",
@@ -370,7 +374,17 @@
   "due": "2026-11-05T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-10-30T17:03:49.000Z"
+  "created": "2026-10-30T17:03:49.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day08-video|instagram": {
   "buffer_id": "6ae4cdf6260ad0ee5bbb5413",
@@ -384,7 +398,17 @@
   "due": "2026-11-06T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-10-30T17:03:50.000Z"
+  "created": "2026-10-30T17:03:50.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day09-video|instagram": {
   "buffer_id": "6ae4cdf7260ad0ee5bbb5475",
@@ -398,6 +422,12 @@
   "due": "2026-11-06T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-10-30T17:03:51.000Z"
+  "created": "2026-10-30T17:03:51.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
