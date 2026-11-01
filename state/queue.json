@@ -126,31 +126,35 @@
  "day03-video|tiktok": {
   "buffer_id": "6ae1bebc43bad65094ed0d60",
   "due": "2026-10-31T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-10-28T09:22:04.000Z",
   "metrics": {
-   "reactions": 0,
+   "reactions": 1,
    "comments": 0,
-   "engagementRate": 0,
-   "views": 0,
+   "engagementRate": 0.68,
+   "views": 146,
    "shares": 0,
    "reach": 0,
-   "totalTimeWatched": 0,
-   "averageTimeWatched": 0
-  }
+   "totalTimeWatched": 10.07,
+   "averageTimeWatched": 4.38
+  },
+  "sent": "2026-10-31T17:04:31.246Z",
+  "link": "https://www.tiktok.com/@servus.german/video/7702878584502897953?utm_campaign=tt4d_open_api&utm_source=7103819247981182978"
  },
  "day03-video|instagram": {
   "buffer_id": "6ae1bebc43bad65094ed0e1b",
   "due": "2026-10-31T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-10-28T09:22:04.000Z"
+  "created": "2026-10-28T09:22:04.000Z",
+  "sent": "2026-10-31T17:05:49.452Z",
+  "link": "https://www.instagram.com/reel/DfKpjOuDSu8/"
  },
  "day03-video|youtube": {
   "buffer_id": "6ae1bebd17d013af799e10ce",
   "due": "2026-10-31T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-10-28T09:22:05.000Z",
   "metrics": {
@@ -158,7 +162,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-10-31T17:02:42.764Z",
+  "link": "https://www.youtube.com/shorts/HoKHfM--Omk"
  },
  "day04-video|tiktok": {
   "buffer_id": "6ae1bebd17d013af799e111e",
@@ -429,5 +435,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day10-video|tiktok": {
+  "buffer_id": "6ae6e9ca37c1acd2a0f11ea9",
+  "due": "2026-11-07T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-01T07:27:06.000Z"
+ },
+ "day10-video|instagram": {
+  "buffer_id": "6ae6e9cbcf3a3112f3e5aa1a",
+  "due": "2026-11-07T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-01T07:27:07.000Z"
+ },
+ "day10-video|youtube": {
+  "buffer_id": "6ae6e9cb21c807e9d5a7fb09",
+  "due": "2026-11-07T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-01T07:27:07.000Z"
  }
 }
