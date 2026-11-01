@@ -441,7 +441,17 @@
   "due": "2026-11-07T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-01T07:27:06.000Z"
+  "created": "2026-11-01T07:27:06.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day10-video|instagram": {
   "buffer_id": "6ae6e9cbcf3a3112f3e5aa1a",
@@ -455,6 +465,12 @@
   "due": "2026-11-07T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-01T07:27:07.000Z"
+  "created": "2026-11-01T07:27:07.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
