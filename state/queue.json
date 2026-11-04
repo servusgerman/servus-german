@@ -336,7 +336,7 @@
  "day07-video|tiktok": {
   "buffer_id": "6ae22c9db66142fb532fc002",
   "due": "2026-11-04T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-10-28T17:10:53.000Z",
   "metrics": {
@@ -348,19 +348,23 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-04T17:12:48.160Z",
+  "link": "https://tiktok.com/@servus.german/video/7704364301326241057"
  },
  "day07-video|instagram": {
   "buffer_id": "6ae22c9ef0cc2f91061bd8b6",
   "due": "2026-11-04T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-10-28T17:10:54.000Z"
+  "created": "2026-10-28T17:10:54.000Z",
+  "sent": "2026-11-04T17:11:09.319Z",
+  "link": "https://www.instagram.com/reel/DfU9MvDG224/"
  },
  "day07-video|youtube": {
   "buffer_id": "6ae22c9ec79ca14f286fadbb",
   "due": "2026-11-04T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-10-28T17:10:54.000Z",
   "metrics": {
@@ -368,7 +372,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-11-04T17:06:07.717Z",
+  "link": "https://www.youtube.com/shorts/TXcQoAqejiA"
  },
  "day08-carousel|instagram": {
   "buffer_id": "6ae37ecba23f0986fe06d9fc",
@@ -639,5 +645,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day14-carousel|instagram": {
+  "buffer_id": "6aeb688da6d053c9c52dfd7a",
+  "due": "2026-11-11T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-04T17:17:02.000Z"
+ },
+ "day14-carousel|tiktok": {
+  "buffer_id": "6aeb688eb60af5ca16791d4f",
+  "due": "2026-11-11T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-04T17:17:02.000Z"
+ },
+ "day14-video|youtube": {
+  "buffer_id": "6aeb688f610a51b44ddd5252",
+  "due": "2026-11-11T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-04T17:17:03.000Z"
  }
 }
