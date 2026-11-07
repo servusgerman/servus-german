@@ -775,7 +775,17 @@
   "due": "2026-11-13T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-06T17:14:32.000Z"
+  "created": "2026-11-06T17:14:32.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day16-video|instagram": {
   "buffer_id": "6aee0af8d6bbae6fa13623dd",
@@ -789,6 +799,12 @@
   "due": "2026-11-13T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-06T17:14:33.000Z"
+  "created": "2026-11-06T17:14:33.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
