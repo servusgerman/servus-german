@@ -557,14 +557,26 @@
  "day11-carousel|instagram": {
   "buffer_id": "6ae8407a759fc887b6d649bf",
   "due": "2026-11-08T11:30:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-02T07:49:14.000Z"
+  "created": "2026-11-02T07:49:14.000Z",
+  "sent": "2026-11-08T11:31:38.370Z",
+  "link": "https://www.instagram.com/p/Dfep4qgEeFf/",
+  "metrics": {
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 100,
+   "views": 1,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 1
+  }
  },
  "day11-carousel|tiktok": {
   "buffer_id": "6ae8407ac60bdbcc33e18a64",
   "due": "2026-11-08T11:30:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-02T07:49:14.000Z",
   "metrics": {
@@ -576,7 +588,9 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-08T11:32:10.289Z",
+  "link": "https://tiktok.com/@servus.german/video/7705761662992796961"
  },
  "day11-video|youtube": {
   "buffer_id": "6ae8407b7817c41d1a4f00d4",
@@ -836,13 +850,43 @@
   "due": "2026-11-14T11:30:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-08T07:28:18.000Z"
+  "created": "2026-11-08T07:28:18.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day17-video|youtube": {
   "buffer_id": "6af02492004e4879a7a12f35",
   "due": "2026-11-14T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-08T07:28:19.000Z"
+  "created": "2026-11-08T07:28:19.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
+ },
+ "day17-video|tiktok": {
+  "buffer_id": "6af0a9f99214322f68667ddc",
+  "due": "2026-11-14T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-08T16:57:30.000Z"
+ },
+ "day17-video|instagram": {
+  "buffer_id": "6af0a9fa229bf05dafc32805",
+  "due": "2026-11-14T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-08T16:57:30.000Z"
  }
 }
