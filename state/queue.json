@@ -649,7 +649,7 @@
  "day12-video|tiktok": {
   "buffer_id": "6ae8c628dd69ed08c74c3910",
   "due": "2026-11-09T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-02T17:19:36.000Z",
   "metrics": {
@@ -661,19 +661,23 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-09T17:09:17.801Z",
+  "link": "https://tiktok.com/@servus.german/video/7706219376680160545"
  },
  "day12-video|instagram": {
   "buffer_id": "6ae8c628948a9655f41ad66d",
   "due": "2026-11-09T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-02T17:19:36.000Z"
+  "created": "2026-11-02T17:19:36.000Z",
+  "sent": "2026-11-09T17:09:31.213Z",
+  "link": "https://www.instagram.com/reel/Dfh1OfBE7zB/"
  },
  "day12-video|youtube": {
   "buffer_id": "6ae8c6297a53672ddf8009ed",
   "due": "2026-11-09T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-11-02T17:19:37.000Z",
   "metrics": {
@@ -681,7 +685,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-11-09T17:06:26.304Z",
+  "link": "https://www.youtube.com/shorts/q8Ly_A21ak4"
  },
  "day13-video|tiktok": {
   "buffer_id": "6aea176351b33df41066a825",
@@ -921,7 +927,17 @@
   "due": "2026-11-15T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-09T07:50:31.000Z"
+  "created": "2026-11-09T07:50:31.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day18-video|instagram": {
   "buffer_id": "6af17b472f1ff83d4524e814",
@@ -935,6 +951,33 @@
   "due": "2026-11-15T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-09T07:50:32.000Z"
+  "created": "2026-11-09T07:50:32.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
+ },
+ "day19-video|tiktok": {
+  "buffer_id": "6af20219c1ebd32415dad4cd",
+  "due": "2026-11-16T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-09T17:25:45.000Z"
+ },
+ "day19-video|instagram": {
+  "buffer_id": "6af20219704ab85a6bd93a09",
+  "due": "2026-11-16T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-09T17:25:45.000Z"
+ },
+ "day19-video|youtube": {
+  "buffer_id": "6af2021ac1ebd32415dad53e",
+  "due": "2026-11-16T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-09T17:25:46.000Z"
  }
 }
