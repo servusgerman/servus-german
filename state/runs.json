@@ -1,5 +1,24 @@
 [
  {
+  "started": "2026-11-09T07:50:29.000Z",
+  "created": 3,
+  "updated": 3,
+  "errors": [],
+  "warnings": [],
+  "dry_run": false,
+  "pages_base": "https://servusgerman.github.io/servus-german/",
+  "org": "My organization",
+  "channels": {
+   "youtube": "Servus German",
+   "instagram": "servus.german",
+   "tiktok": "servus.german"
+  },
+  "content_until": "2026-12-27T17:00:00.000Z",
+  "api_calls": 6,
+  "finished": "2026-11-09T07:50:32.000Z",
+  "ok": true
+ },
+ {
   "started": "2026-11-08T16:57:28.000Z",
   "created": 2,
   "updated": 2,
