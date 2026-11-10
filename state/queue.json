@@ -692,7 +692,7 @@
  "day13-video|tiktok": {
   "buffer_id": "6aea176351b33df41066a825",
   "due": "2026-11-10T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-03T17:18:27.000Z",
   "metrics": {
@@ -704,19 +704,23 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-10T17:08:33.467Z",
+  "link": "https://tiktok.com/@servus.german/video/7706590474273967392"
  },
  "day13-video|instagram": {
   "buffer_id": "6aea1763f96518b06f2117f3",
   "due": "2026-11-10T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-03T17:18:27.000Z"
+  "created": "2026-11-03T17:18:27.000Z",
+  "sent": "2026-11-10T17:10:41.874Z",
+  "link": "https://www.instagram.com/reel/DfkaH0Sj2Tt/"
  },
  "day13-video|youtube": {
   "buffer_id": "6aea1764be501cd7c1ba507b",
   "due": "2026-11-10T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-11-03T17:18:28.000Z",
   "metrics": {
@@ -724,7 +728,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-11-10T17:06:37.922Z",
+  "link": "https://www.youtube.com/shorts/Mzxwm2DSri8"
  },
  "day14-carousel|instagram": {
   "buffer_id": "6aeb688da6d053c9c52dfd7a",
@@ -995,5 +1001,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day20-carousel|instagram": {
+  "buffer_id": "6af350d2341cea4af62275ae",
+  "due": "2026-11-17T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-10T17:13:54.000Z"
+ },
+ "day20-carousel|tiktok": {
+  "buffer_id": "6af350d35c5c3532713db0d6",
+  "due": "2026-11-17T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-10T17:13:55.000Z"
+ },
+ "day20-video|youtube": {
+  "buffer_id": "6af350d394964d984f057195",
+  "due": "2026-11-17T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-10T17:13:55.000Z"
  }
 }
