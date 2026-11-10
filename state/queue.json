@@ -964,7 +964,17 @@
   "due": "2026-11-16T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-09T17:25:45.000Z"
+  "created": "2026-11-09T17:25:45.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day19-video|instagram": {
   "buffer_id": "6af20219704ab85a6bd93a09",
@@ -978,6 +988,12 @@
   "due": "2026-11-16T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-09T17:25:46.000Z"
+  "created": "2026-11-09T17:25:46.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
