@@ -1014,13 +1014,29 @@
   "due": "2026-11-17T11:30:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-10T17:13:55.000Z"
+  "created": "2026-11-10T17:13:55.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day20-video|youtube": {
   "buffer_id": "6af350d394964d984f057195",
   "due": "2026-11-17T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-10T17:13:55.000Z"
+  "created": "2026-11-10T17:13:55.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
