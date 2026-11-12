@@ -816,7 +816,7 @@
  "day15-video|tiktok": {
   "buffer_id": "6aecbcea7c2c23ac24c46ec9",
   "due": "2026-11-12T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-05T17:29:14.000Z",
   "metrics": {
@@ -828,19 +828,23 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-12T17:07:16.156Z",
+  "link": "https://tiktok.com/@servus.german/video/7707332539991493920"
  },
  "day15-video|instagram": {
   "buffer_id": "6aecbceab09a1f8d3e2799bb",
   "due": "2026-11-12T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-05T17:29:14.000Z"
+  "created": "2026-11-05T17:29:14.000Z",
+  "sent": "2026-11-12T17:10:03.439Z",
+  "link": "https://www.instagram.com/reel/DfpjmVdCSQF/"
  },
  "day15-video|youtube": {
   "buffer_id": "6aecbceb0e16d123110412c2",
   "due": "2026-11-12T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-11-05T17:29:15.000Z",
   "metrics": {
@@ -848,7 +852,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-11-12T17:05:57.555Z",
+  "link": "https://www.youtube.com/shorts/c36KAIseg8k"
  },
  "day16-video|tiktok": {
   "buffer_id": "6aee0af8a7751de7c997c9e0",
@@ -1119,5 +1125,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day22-video|tiktok": {
+  "buffer_id": "6af5f5406ff0fe2ceb018fa2",
+  "due": "2026-11-19T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-12T17:20:01.000Z"
+ },
+ "day22-video|instagram": {
+  "buffer_id": "6af5f5419ec46948df17766c",
+  "due": "2026-11-19T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-12T17:20:01.000Z"
+ },
+ "day22-video|youtube": {
+  "buffer_id": "6af5f5416ff0fe2ceb019097",
+  "due": "2026-11-19T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-12T17:20:02.000Z"
  }
 }
