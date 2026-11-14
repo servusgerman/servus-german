@@ -902,14 +902,26 @@
  "day17-carousel|instagram": {
   "buffer_id": "6af02492562f2e6de9a3a36c",
   "due": "2026-11-14T11:30:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-08T07:28:18.000Z"
+  "created": "2026-11-08T07:28:18.000Z",
+  "sent": "2026-11-14T11:31:34.528Z",
+  "link": "https://www.instagram.com/p/DfuGrM2EVQo/",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 0
+  }
  },
  "day17-carousel|tiktok": {
   "buffer_id": "6af02492562f2e6de9a3a398",
   "due": "2026-11-14T11:30:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-08T07:28:18.000Z",
   "metrics": {
@@ -921,7 +933,9 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-14T11:31:44.819Z",
+  "link": "https://tiktok.com/@servus.german/video/7707988159224761632"
  },
  "day17-video|youtube": {
   "buffer_id": "6af02492004e4879a7a12f35",
@@ -1205,5 +1219,19 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day23-video|tiktok": {
+  "buffer_id": "6af8936cc5b364e062045954",
+  "due": "2026-11-20T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-14T16:59:24.000Z"
+ },
+ "day23-video|instagram": {
+  "buffer_id": "6af8936de86a5789a6bce1c2",
+  "due": "2026-11-20T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-14T16:59:25.000Z"
  }
 }
