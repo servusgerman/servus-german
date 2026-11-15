@@ -1266,7 +1266,17 @@
   "due": "2026-11-21T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-15T07:31:40.000Z"
+  "created": "2026-11-15T07:31:40.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day24-video|instagram": {
   "buffer_id": "6af95fdc76c23bf1c765ab01",
@@ -1280,6 +1290,12 @@
   "due": "2026-11-21T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-15T07:31:40.000Z"
+  "created": "2026-11-15T07:31:40.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
