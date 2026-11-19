@@ -1215,31 +1215,35 @@
  "day22-video|tiktok": {
   "buffer_id": "6af5f5406ff0fe2ceb018fa2",
   "due": "2026-11-19T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-12T17:20:01.000Z",
   "metrics": {
-   "reactions": 0,
+   "reactions": 1,
    "comments": 0,
-   "engagementRate": 0,
-   "views": 0,
+   "engagementRate": 4.17,
+   "views": 24,
    "shares": 0,
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-19T17:09:11.075Z",
+  "link": "https://tiktok.com/@servus.german/video/7709930491268353312"
  },
  "day22-video|instagram": {
   "buffer_id": "6af5f5419ec46948df17766c",
   "due": "2026-11-19T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-12T17:20:01.000Z"
+  "created": "2026-11-12T17:20:01.000Z",
+  "sent": "2026-11-19T17:11:44.508Z",
+  "link": "https://www.instagram.com/reel/Df7la3UkRaN/"
  },
  "day22-video|youtube": {
   "buffer_id": "6af5f5416ff0fe2ceb019097",
   "due": "2026-11-19T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-11-12T17:20:02.000Z",
   "metrics": {
@@ -1247,7 +1251,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-11-19T17:07:09.175Z",
+  "link": "https://www.youtube.com/shorts/HMXYnWlZkT0"
  },
  "day23-carousel|instagram": {
   "buffer_id": "6af74629f27e6d89214451fa",
@@ -1518,5 +1524,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day29-carousel|instagram": {
+  "buffer_id": "6aff30652ebf6787842b6044",
+  "due": "2026-11-26T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-19T17:22:45.000Z"
+ },
+ "day29-carousel|tiktok": {
+  "buffer_id": "6aff30652ebf6787842b6081",
+  "due": "2026-11-26T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-19T17:22:46.000Z"
+ },
+ "day29-video|youtube": {
+  "buffer_id": "6aff30669556d6ec850ea757",
+  "due": "2026-11-26T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-19T17:22:47.000Z"
  }
 }
