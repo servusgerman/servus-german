@@ -1487,7 +1487,17 @@
   "due": "2026-11-25T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-18T17:24:24.000Z"
+  "created": "2026-11-18T17:24:24.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day28-video|instagram": {
   "buffer_id": "6afddf486cf2b6483849480e",
@@ -1501,6 +1511,12 @@
   "due": "2026-11-25T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-18T17:24:25.000Z"
+  "created": "2026-11-18T17:24:25.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
