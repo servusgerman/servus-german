@@ -1537,13 +1537,29 @@
   "due": "2026-11-26T11:30:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-19T17:22:46.000Z"
+  "created": "2026-11-19T17:22:46.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day29-video|youtube": {
   "buffer_id": "6aff30669556d6ec850ea757",
   "due": "2026-11-26T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-19T17:22:47.000Z"
+  "created": "2026-11-19T17:22:47.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
