@@ -1382,7 +1382,7 @@
  "day25-video|tiktok": {
   "buffer_id": "6afac893ff465c57dae82270",
   "due": "2026-11-22T17:00:00.000Z",
-  "status": "sending",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-16T09:10:43.000Z",
   "metrics": {
@@ -1394,14 +1394,18 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-22T17:07:41.686Z",
+  "link": "https://tiktok.com/@servus.german/video/7711043306406284576"
  },
  "day25-video|instagram": {
   "buffer_id": "6afac893d7e5fee638b47588",
   "due": "2026-11-22T17:00:00.000Z",
-  "status": "sending",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-16T09:10:43.000Z"
+  "created": "2026-11-16T09:10:43.000Z",
+  "sent": "2026-11-22T17:07:59.948Z",
+  "link": "https://www.instagram.com/reel/DgDTP-cDLUP/"
  },
  "day25-video|youtube": {
   "buffer_id": "6afac89360a910801c81403a",
@@ -1700,13 +1704,29 @@
   "due": "2026-11-29T11:30:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-22T17:05:58.000Z"
+  "created": "2026-11-22T17:05:58.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day32-video|youtube": {
   "buffer_id": "6b0320f6d864a01105de3681",
   "due": "2026-11-29T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-22T17:05:58.000Z"
+  "created": "2026-11-22T17:05:58.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
