@@ -1506,7 +1506,7 @@
  "day27-video|tiktok": {
   "buffer_id": "6afc8dfdafa176f5999e8642",
   "due": "2026-11-24T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-17T17:25:17.000Z",
   "metrics": {
@@ -1518,19 +1518,23 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-24T17:09:08.906Z",
+  "link": "https://tiktok.com/@servus.german/video/7711785909988986145"
  },
  "day27-video|instagram": {
   "buffer_id": "6afc8dfd7a7b613f16938f63",
   "due": "2026-11-24T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-17T17:25:17.000Z"
+  "created": "2026-11-17T17:25:17.000Z",
+  "sent": "2026-11-24T17:09:33.976Z",
+  "link": "https://www.instagram.com/reel/DgIdJIoAAZ8/"
  },
  "day27-video|youtube": {
   "buffer_id": "6afc8dfe104bf3e62495418f",
   "due": "2026-11-24T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-11-17T17:25:18.000Z",
   "metrics": {
@@ -1538,7 +1542,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-11-24T17:07:06.879Z",
+  "link": "https://www.youtube.com/shorts/ks9QdaJTAqQ"
  },
  "day28-video|tiktok": {
   "buffer_id": "6afddf476cf2b648384947e3",
@@ -1809,5 +1815,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day34-video|tiktok": {
+  "buffer_id": "6b05c7b39694e6b56704291b",
+  "due": "2026-12-01T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-24T17:21:56.000Z"
+ },
+ "day34-video|instagram": {
+  "buffer_id": "6b05c7b420f9e770f07d2d98",
+  "due": "2026-12-01T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-24T17:21:56.000Z"
+ },
+ "day34-video|youtube": {
+  "buffer_id": "6b05c7b43f48af62c221c0bf",
+  "due": "2026-12-01T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-24T17:21:56.000Z"
  }
 }
