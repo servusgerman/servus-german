@@ -1821,7 +1821,17 @@
   "due": "2026-12-01T17:00:00.000Z",
   "status": "scheduled",
   "platform": "tiktok",
-  "created": "2026-11-24T17:21:56.000Z"
+  "created": "2026-11-24T17:21:56.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  }
  },
  "day34-video|instagram": {
   "buffer_id": "6b05c7b420f9e770f07d2d98",
@@ -1835,6 +1845,12 @@
   "due": "2026-12-01T17:00:00.000Z",
   "status": "scheduled",
   "platform": "youtube",
-  "created": "2026-11-24T17:21:56.000Z"
+  "created": "2026-11-24T17:21:56.000Z",
+  "metrics": {
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0
+  }
  }
 }
