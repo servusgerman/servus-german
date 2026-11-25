@@ -1549,7 +1549,7 @@
  "day28-video|tiktok": {
   "buffer_id": "6afddf476cf2b648384947e3",
   "due": "2026-11-25T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "tiktok",
   "created": "2026-11-18T17:24:24.000Z",
   "metrics": {
@@ -1561,19 +1561,23 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
-  }
+  },
+  "sent": "2026-11-25T17:14:49.908Z",
+  "link": "https://tiktok.com/@servus.german/video/7712157968636202273"
  },
  "day28-video|instagram": {
   "buffer_id": "6afddf486cf2b6483849480e",
   "due": "2026-11-25T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "instagram",
-  "created": "2026-11-18T17:24:24.000Z"
+  "created": "2026-11-18T17:24:24.000Z",
+  "sent": "2026-11-25T17:15:29.762Z",
+  "link": "https://www.instagram.com/reel/DgLCYJ4in3H/"
  },
  "day28-video|youtube": {
   "buffer_id": "6afddf48ba7cb28cce123f8a",
   "due": "2026-11-25T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "sent",
   "platform": "youtube",
   "created": "2026-11-18T17:24:25.000Z",
   "metrics": {
@@ -1581,7 +1585,9 @@
    "comments": 0,
    "engagementRate": 0,
    "views": 0
-  }
+  },
+  "sent": "2026-11-25T17:07:57.851Z",
+  "link": "https://www.youtube.com/shorts/qxDeDq91gX8"
  },
  "day29-carousel|instagram": {
   "buffer_id": "6aff30652ebf6787842b6044",
@@ -1852,5 +1858,26 @@
    "engagementRate": 0,
    "views": 0
   }
+ },
+ "day35-carousel|instagram": {
+  "buffer_id": "6b0718dfa45de5d18f2df149",
+  "due": "2026-12-02T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "instagram",
+  "created": "2026-11-25T17:20:31.000Z"
+ },
+ "day35-carousel|tiktok": {
+  "buffer_id": "6b0718e0fd598a29273b055d",
+  "due": "2026-12-02T11:30:00.000Z",
+  "status": "scheduled",
+  "platform": "tiktok",
+  "created": "2026-11-25T17:20:32.000Z"
+ },
+ "day35-video|youtube": {
+  "buffer_id": "6b0718e15c8555139b4710d3",
+  "due": "2026-12-02T17:00:00.000Z",
+  "status": "scheduled",
+  "platform": "youtube",
+  "created": "2026-11-25T17:20:33.000Z"
  }
 }
